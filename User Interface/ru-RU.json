@@ -6,6 +6,7 @@
     "close": "Закрыть",
     "cancel": "Отмена",
     "confirm": "Подтвердить",
+    "are_you_sure": "Вы уверены?",
     "open": "Открыть",
     "save": "Сохранить",
     "delete": "Удалить",
@@ -17,6 +18,7 @@
     "layout": "Рассадка",
     "leaves": "Листья",
     "player_numbers": "Номера игроков",
+    "death_details": "Детали смерти",
     "type_icons": "Иконки типов",
     "flip": "Перевернуть горизонтально",
     "circle": "Круг",
@@ -131,9 +133,6 @@
       "privacy_link": "Политикой конфиденциальности",
       "guide": "Руководство по использованию Digital Grimoire можно посмотреть",
       "guide_link": "в этом видео на YouTube",
-      "donation": "Если вы цените проделанную работу,",
-      "donation_link": "пожертвования",
-      "donation_thanks": "очень приветствуются. Спасибо!",
       "clear_cache": "Очистить кэш",
       "clearing_cache": "Очистка кэша...",
       "cache_cleared": "Кэш очищен!"
@@ -417,6 +416,7 @@
     "demon_info_first_night_reminder": "Если игроков 7 или больше, разбудите Демона:\n\tПокажите жетон *ЭТО ТВОИ ПРИСЛУЖНИКИ*. Укажите на всех Прислужников.\n\tПокажите жетон *ЭТИХ ПЕРСОНАЖЕЙ НЕТ В ИГРЕ*. Покажите 3 жетона добрых персонажей, не участвующих в этой игре."
   },
   "setup": {
+    "layout_help": "Выберите форму рассадки игроков.\nЕё можно скорректировать вручную позже.",
     "choose_script": "Выберите сценарий",
     "select_from_official": "Выберите официальный сценарий или найдите пользовательский",
     "players": "{count} игроков",
@@ -438,8 +438,14 @@
     "disallow": "Запретить",
     "all": "Все",
     "draw_tokens": "Тянуть жетоны",
-    "draft_tokens": "Драфт ролей",
+    "distribution_method": "Способ распределения",
+    "storyteller_token_draw": "Рассказчик",
+    "mobile_token_distribution": "Мобильная",
+    "draw_view_token": "Жетоны",
+    "draw_view_bag": "Мешок",
+    "start_setup": "Начать настройку",
     "select_more_roles": "Выберите ещё {count} ролей для продолжения",
+    "too_many_roles": "Удалите {count} ролей для продолжения",
     "setup_warning": "Некоторые выбранные роли могут изменить состав города. Проверьте перед продолжением.",
     "multiple_demons_warning": "Обнаружено несколько демонов, которые не допускают множественные экземпляры.",
     "player_names": "Имена игроков",
@@ -509,11 +515,14 @@
         "town_info_travellers": "Путешественники",
         "town_info_dead": "Мёртвые",
         "town_info_votes": "Оставшиеся голоса",
-        "town_info_majority": "Большинство"
+        "town_info_majority": "Большинство",
+        "start_game": "Начать игру",
+        "assign_progress": "Занято {assigned} из {total} мест",
+        "tap_seat_to_assign": "Нажмите, чтобы назначить игрока на это место",
+        "seat": "Место"
   },
   "draw_tokens": {
-    "random_draw": "Случайная выдача",
-    "random": "Случайно",
+    "back_to_setup": "Назад к настройке",
     "mobile_distribution": "Мобильная раздача",
     "mobile": "Мобильная",
     "manual_setup": "Ручная настройка",
@@ -568,19 +577,11 @@
     "roles_assigned": "Назначено {assigned} из {total} ролей",
     "role_remaining": "Осталась 1 роль",
     "roles_remaining": "Осталось {count} ролей",
-    "assign_to_player": "Назначить игроку",
     "enter_player_name": "Введите имя",
     "quick_select": "Быстрый выбор:",
     "assign_role_button": "Назначить роль",
-    "draft_mode": "Драфт",
-    "draft": "Драфт",
-    "draft_description": "Игроки по очереди выбирают из максимум 3 жетонов",
-    "start_draft": "Начать драфт",
-    "wake_player": "Разбудить место {number}",
     "choose_role": "Выберите роль",
-    "draft_complete": "Все роли разобраны",
-    "resume_draft": "Продолжить драфт",
-    "restart_draft": "Перезапустить драфт"
+    "manual_assign": "Назначить вручную"
   },
   "town": {
     "toggle_widgets": "Показать/скрыть виджеты",
@@ -605,7 +606,8 @@
     "tap_to_reveal": "Нажмите на жетоны, чтобы раскрыть роли",
     "reveal_all": "Открыть всё",
     "widget_dark_background": "Тёмный фон виджетов",
-    "edit_night_icons": "Изменить иконки ночного порядка..."
+    "edit_night_icons": "Изменить иконки ночного порядка...",
+    "seat": "Место"
   },
   "cards": {
     "this_is_the_demon": "ЭТО ДЕМОН",
@@ -699,7 +701,14 @@
     "your_character": "Ваш персонаж",
     "no_character_info": "Нет информации о персонаже",
     "enter_session_details": "Введите данные сессии выше",
-    "connect_to_participate": "Подключитесь к сессии, чтобы участвовать"
+    "connect_to_participate": "Подключитесь к сессии, чтобы участвовать",
+    "your_seat": "Ваше место",
+    "select_seat": "Выберите место...",
+    "seat_label": "Место {number}",
+    "taken": "занято",
+    "loading_session": "Загрузка информации о сессии...",
+    "error_session_not_found": "Сессия не найдена. Проверьте ID сессии.",
+    "error_seat_taken": "Это место только что было занято. Пожалуйста, выберите другое."
   },
   "privacy": {
     "title": "Политика конфиденциальности"

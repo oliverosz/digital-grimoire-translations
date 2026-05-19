@@ -6,6 +6,7 @@
     "close": "Затвори",
     "cancel": "Откажи",
     "confirm": "Потвърди",
+    "are_you_sure": "Сигурен ли си?",
     "open": "Отвори",
     "save": "Запази",
     "delete": "Изтрий",
@@ -17,6 +18,7 @@
     "layout": "Разположение",
     "leaves": "листенцата",
     "player_numbers": "Номера на играчите",
+    "death_details": "Детайли за смъртта",
     "type_icons": "Икони за тип",
     "flip": "Обърни хоризонтално",
     "circle": "Кръг",
@@ -131,9 +133,6 @@
       "privacy_link": "Политика за поверителност",
       "guide": "За инструкции как да ползваш Дигитален Гримоар, моля гледай",
       "guide_link": "това видео в Youtube",
-      "donation": "Ако оценяваш работата, която съм вложил в този инструмент,",
-      "donation_link": "даренията",
-      "donation_thanks": "са високо оценени. Благодаря ти.",
       "clear_cache": "Изчисти кеш паметта",
       "clearing_cache": "Кеш паметта се изчиства...",
       "cache_cleared": "Кеш паметта е изчистена!"
@@ -417,6 +416,7 @@
     "demon_info_first_night_reminder": "Ако има повече от 7 играча, събуди Демона:\n\tПокажи му картата *ТОВА СА ТВОИТЕ МИНЬОНИ*. Посочи всички миньони.\n\tПокажи му картата *ТЕЗИ РОЛИ НЕ СА В ИГРА*. Покажи му 3 добри роли, които не са в игра."
   },
   "setup": {
+    "layout_help": "Избери формата на наредбата на местата.\nТя може да бъде коригирана ръчно по-късно.",
     "choose_script": "Избери сценарий",
     "select_from_official": "Избери от официалните сценарии или потърси сред персонализираните такива",
     "players": "{count} играча",
@@ -438,8 +438,14 @@
     "disallow": "Забрани",
     "all": "Всички",
     "draw_tokens": "Раздай токени",
-    "draft_tokens": "Драфт на роли",
+    "distribution_method": "Метод на разпределение",
+    "storyteller_token_draw": "Разказвач",
+    "mobile_token_distribution": "Мобилно",
+    "draw_view_token": "Токени",
+    "draw_view_bag": "Торба",
+    "start_setup": "Започни настройка",
     "select_more_roles": "Избери още {count} роли, за да продължиш",
+    "too_many_roles": "Премахни {count} роли, за да продължиш",
     "setup_warning": "Някои от избраните роли може да повлияят на разпределението в града. Моля прегледай ги преди да продължиш.",
     "multiple_demons_warning": "Избрани са няколко демона, без това да е позволено.",
     "player_names": "имената на играчите",
@@ -509,11 +515,14 @@
         "town_info_travellers": "Пътници",
         "town_info_dead": "Мъртви",
         "town_info_votes": "Оставащи гласове",
-        "town_info_majority": "Мнозинство"
+        "town_info_majority": "Мнозинство",
+        "start_game": "Започни игра",
+        "assign_progress": "{assigned} от {total} места заети",
+        "tap_seat_to_assign": "Натисни, за да зачислиш играч на това място",
+        "seat": "Място"
   },
   "draw_tokens": {
-    "random_draw": "Случайно разпределение",
-    "random": "Случайно",
+    "back_to_setup": "Назад към настройката",
     "mobile_distribution": "Мобилно разпределяне",
     "mobile": "Мобилно",
     "manual_setup": "Ръчно разпределяне",
@@ -568,19 +577,11 @@
     "roles_assigned": "{assigned} от {total} зачислени роли",
     "role_remaining": "1 роля остава",
     "roles_remaining": "{count} роли остават",
-    "assign_to_player": "Зачисли на играч",
     "enter_player_name": "Въведи име на играча",
     "quick_select": "Бърз избор:",
     "assign_role_button": "Зачисли роля",
-    "draft_mode": "Драфт",
-    "draft": "Драфт",
-    "draft_description": "Играчите избират на ред от максимум 3 жетона",
-    "start_draft": "Започни драфт",
-    "wake_player": "Събуди място {number}",
     "choose_role": "Избери роля",
-    "draft_complete": "Всички роли са избрани",
-    "resume_draft": "Продължи драфт",
-    "restart_draft": "Започни драфта отначало"
+    "manual_assign": "Ръчно зачисляване"
   },
   "town": {
     "toggle_widgets": "Добави уиджети",
@@ -605,7 +606,8 @@
     "tap_to_reveal": "Натисни върху токените, за да разкриеш ролята",
     "reveal_all": "Разкрий всичко",
     "widget_dark_background": "Тъмен фон на уиджети",
-    "edit_night_icons": "Редактирай иконите за нощния ред..."
+    "edit_night_icons": "Редактирай иконите за нощния ред...",
+    "seat": "Място"
   },
   "cards": {
     "this_is_the_demon": "ТОВА Е ДЕМОНЪТ",
@@ -699,7 +701,14 @@
     "your_character": "Твоят персонаж",
     "no_character_info": "Няма информация за персонажите",
     "enter_session_details": "Въведи данни за играта, за да се свържеш",
-    "connect_to_participate": "Присъедини се към игра, за да участваш"
+    "connect_to_participate": "Присъедини се към игра, за да участваш",
+    "your_seat": "Твоето място",
+    "select_seat": "Избери място...",
+    "seat_label": "Място {number}",
+    "taken": "заето",
+    "loading_session": "Зареждане на информация за играта...",
+    "error_session_not_found": "Играта не е намерена. Моля провери ID на сесията.",
+    "error_seat_taken": "Това място току-що беше заето. Моля избери друго."
   },
   "privacy": {
     "title": "Политика за поверителност"

@@ -6,6 +6,7 @@
     "close": "Close",
     "cancel": "Cancel",
     "confirm": "Confirm",
+    "are_you_sure": "Are you sure?",
     "open": "Open",
     "save": "Save",
     "delete": "Delete",
@@ -17,6 +18,7 @@
     "layout": "Layout",
     "leaves": "Leaves",
     "player_numbers": "Player Numbers",
+    "death_details": "Death Details",
     "type_icons": "Type Icons",
     "flip": "Flip Horizontally",
     "circle": "Circle",
@@ -131,9 +133,6 @@
       "privacy_link": "Privacy Policy",
       "guide": "For a guide on how to use the Digital Grimoire, please watch",
       "guide_link": "this video on YouTube",
-      "donation": "If you appreciate the work I've put into this tool,",
-      "donation_link": "donations",
-      "donation_thanks": "are very welcome. Thank you.",
       "clear_cache": "Clear Cache",
       "clearing_cache": "Clearing Cache...",
       "cache_cleared": "Cache Cleared!"
@@ -417,6 +416,7 @@
     "demon_info_first_night_reminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens."
   },
   "setup": {
+    "layout_help": "Choose the shape of the seating arrangement.\nThis can be manually adjusted later.",
     "choose_script": "Choose Your Script",
     "select_from_official": "Select from official scripts or search for custom ones",
     "players": "{count} Players",
@@ -438,8 +438,14 @@
     "disallow": "Disallow",
     "all": "All",
     "draw_tokens": "Draw Tokens",
-    "draft_tokens": "Draft Roles",
+    "distribution_method": "Distribution Method",
+    "storyteller_token_draw": "Storyteller",
+    "mobile_token_distribution": "Mobile",
+    "draw_view_token": "Tokens",
+    "draw_view_bag": "Bag",
+    "start_setup": "Start Setup",
     "select_more_roles": "Select {count} more roles to continue",
+    "too_many_roles": "Remove {count} roles to continue",
     "setup_warning": "Some chosen roles may alter the town composition. Please review before continuing.",
     "multiple_demons_warning": "Multiple demons detected that don't allow multiple instances.",
     "player_names": "Player Names",
@@ -508,11 +514,14 @@
         "town_info_travellers": "Travellers",
         "town_info_dead": "Dead",
         "town_info_votes": "Votes Remaining",
-        "town_info_majority": "Majority"
+        "town_info_majority": "Majority",
+        "start_game": "Start Game",
+        "assign_progress": "{assigned} of {total} seats filled",
+        "tap_seat_to_assign": "Tap to assign a player to this seat",
+        "seat": "Seat"
   },
   "draw_tokens": {
-    "random_draw": "Random Draw",
-    "random": "Random",
+    "back_to_setup": "Back to Setup",
     "mobile_distribution": "Mobile Distribution",
     "mobile": "Mobile",
     "manual_setup": "Manual Setup",
@@ -567,19 +576,11 @@
     "roles_assigned": "{assigned} of {total} roles assigned",
     "role_remaining": "1 role remaining",
     "roles_remaining": "{count} roles remaining",
-    "assign_to_player": "Assign to Player",
     "enter_player_name": "Enter player name",
     "quick_select": "Quick Select:",
     "assign_role_button": "Assign Role",
-    "draft_mode": "Draft",
-    "draft": "Draft",
-    "draft_description": "Players take turns choosing from up to 3 tokens",
-    "start_draft": "Start Draft",
-    "wake_player": "Wake Seat {number}",
     "choose_role": "Choose a Role",
-    "draft_complete": "All roles have been drafted",
-    "resume_draft": "Resume Draft",
-    "restart_draft": "Restart Draft"
+    "manual_assign": "Manual Assign"
   },
   "town": {
     "toggle_widgets": "Toggle Widgets",
@@ -604,7 +605,8 @@
     "tap_to_reveal": "Tap tokens to reveal roles",
     "reveal_all": "Reveal All",
     "widget_dark_background": "Dark Widget Backgrounds",
-    "edit_night_icons": "Edit Night Order Icons..."
+    "edit_night_icons": "Edit Night Order Icons...",
+    "seat": "Seat"
   },
   "cards": {
     "this_is_the_demon": "THIS IS THE DEMON",
@@ -698,7 +700,14 @@
     "your_character": "Your Character",
     "no_character_info": "No character information available",
     "enter_session_details": "Enter session details above to connect",
-    "connect_to_participate": "Connect to a session to participate in the game"
+    "connect_to_participate": "Connect to a session to participate in the game",
+    "your_seat": "Your Seat",
+    "select_seat": "Select a seat...",
+    "seat_label": "Seat {number}",
+    "taken": "taken",
+    "loading_session": "Loading session info...",
+    "error_session_not_found": "Session not found. Please check the session ID.",
+    "error_seat_taken": "That seat was just taken. Please choose another."
   },
   "privacy": {
     "title": "Privacy Policy"

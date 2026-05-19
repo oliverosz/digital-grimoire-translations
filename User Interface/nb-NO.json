@@ -6,6 +6,7 @@
     "close": "Lukk",
     "cancel": "Avbryt",
     "confirm": "Bekreft",
+    "are_you_sure": "Er du sikker?",
     "open": "Åpne",
     "save": "Lagre",
     "delete": "Slett",
@@ -17,6 +18,7 @@
     "layout": "Oppsett",
     "leaves": "Blader",
     "player_numbers": "Spillernumre",
+    "death_details": "Dødsdetaljer",
     "type_icons": "Typeikoner",
     "flip": "Snu horisontalt",
     "circle": "Sirkel",
@@ -122,9 +124,6 @@
       "privacy_link": "personvernerklæring",
       "guide": "For en guide om hvordan du bruker Digital Grimoire, se",
       "guide_link": "denne videoen på YouTube",
-      "donation": "Hvis du setter pris på arbeidet jeg har lagt ned i dette verktøyet, er",
-      "donation_link": "donasjoner",
-      "donation_thanks": "hjertelig velkomne. Takk.",
       "clear_cache": "Tøm buffer",
       "clearing_cache": "Tømmer buffer...",
       "cache_cleared": "Buffer tømt!"
@@ -417,6 +416,7 @@
     "demon_info_first_night_reminder": "Hvis det er 7 eller flere spillere, vekk Demonen:\n\tVis *DETTE ER DINE LAKEIER*-kortet. Pek på alle Lakeier.\n\tVis *DISSE KARAKTERENE ER IKKE I SPILL*-kortet. Vis 3 gode roller som ikke er i spill."
   },
   "setup": {
+    "layout_help": "Velg formen på setearrangementet.\nDette kan justeres manuelt senere.",
     "choose_script": "Velg ditt skript",
     "select_from_official": "Velg fra offisielle skript eller søk etter egendefinerte",
     "players": "{count} spillere",
@@ -438,8 +438,14 @@
     "disallow": "Ikke tillat",
     "all": "Alle",
     "draw_tokens": "Trekk brikker",
-    "draft_tokens": "Draft roller",
+    "distribution_method": "Distribusjonsmetode",
+    "storyteller_token_draw": "Forteller",
+    "mobile_token_distribution": "Mobil",
+    "draw_view_token": "Brikker",
+    "draw_view_bag": "Pose",
+    "start_setup": "Start oppsett",
     "select_more_roles": "Velg {count} flere roller for å fortsette",
+    "too_many_roles": "Fjern {count} roller for å fortsette",
     "setup_warning": "Noen valgte roller kan endre byens sammensetning. Vennligst se over før du fortsetter.",
     "multiple_demons_warning": "Du har to demoner i posen.",
     "player_names": "Spillernavn",
@@ -509,11 +515,14 @@
         "town_info_travellers": "Reisende",
         "town_info_dead": "Døde",
         "town_info_votes": "Gjenværende stemmer",
-        "town_info_majority": "Flertall"
+        "town_info_majority": "Flertall",
+        "start_game": "Start spill",
+        "assign_progress": "{assigned} av {total} seter fylt",
+        "tap_seat_to_assign": "Trykk for å tildele en spiller til dette setet",
+        "seat": "Sete"
   },
   "draw_tokens": {
-    "random_draw": "Tilfeldig trekking",
-    "random": "Tilfeldig",
+    "back_to_setup": "Tilbake til oppsett",
     "mobile_distribution": "Mobil distribusjon",
     "mobile": "Mobil",
     "manual_setup": "Manuelt oppsett",
@@ -568,19 +577,11 @@
     "roles_assigned": "{assigned} av {total} roller tildelt",
     "role_remaining": "1 rolle gjenstår",
     "roles_remaining": "{count} roller gjenstår",
-    "assign_to_player": "Tildel til spiller",
     "enter_player_name": "Skriv inn spillernavn",
     "quick_select": "Hurtigvalg:",
     "assign_role_button": "Tildel rolle",
-    "draft_mode": "Draft",
-    "draft": "Draft",
-    "draft_description": "Spillerne velger etter tur blant opptil 3 brikker",
-    "start_draft": "Start draft",
-    "wake_player": "Vekk plass {number}",
     "choose_role": "Velg en rolle",
-    "draft_complete": "Alle roller er valgt",
-    "resume_draft": "Fortsett draft",
-    "restart_draft": "Start draft på nytt"
+    "manual_assign": "Tildel manuelt"
   },
   "town": {
     "toggle_widgets": "Veksle widgeter",
@@ -605,7 +606,8 @@
     "tap_to_reveal": "Trykk på brikker for å avsløre roller",
     "reveal_all": "Avslør alle",
     "widget_dark_background": "Mørk widget-bakgrunn",
-    "edit_night_icons": "Rediger nattrekkefølge-ikoner..."
+    "edit_night_icons": "Rediger nattrekkefølge-ikoner...",
+    "seat": "Sete"
   },
   "cards": {
     "this_is_the_demon": "DETTE ER DEMONEN",
@@ -699,7 +701,14 @@
     "your_character": "Din karakter",
     "no_character_info": "Ingen karakterinformasjon tilgjengelig",
     "enter_session_details": "Skriv inn øktdetaljer ovenfor for å koble til",
-    "connect_to_participate": "Koble til en økt for å delta i spillet"
+    "connect_to_participate": "Koble til en økt for å delta i spillet",
+    "your_seat": "Ditt sete",
+    "select_seat": "Velg et sete...",
+    "seat_label": "Sete {number}",
+    "taken": "opptatt",
+    "loading_session": "Laster øktinformasjon...",
+    "error_session_not_found": "Økten ble ikke funnet. Kontroller økt-ID-en.",
+    "error_seat_taken": "Det setet ble nettopp tatt. Velg et annet."
   },
   "privacy": {
     "title": "Personvernerklæring"

@@ -6,6 +6,7 @@
     "close": "Fermer",
     "cancel": "Annuler",
     "confirm": "Confirmer",
+    "are_you_sure": "Êtes-vous sûr ?",
     "open": "Ouvrir",
     "save": "Enregistrer",
     "delete": "Supprimer",
@@ -17,6 +18,7 @@
     "layout": "Disposition",
     "leaves": "Feuilles",
     "player_numbers": "Numéros des joueurs",
+    "death_details": "Détails du décès",
     "type_icons": "Icônes de type",
     "flip": "Inverser horizontalement",
     "circle": "Cercle",
@@ -122,9 +124,6 @@
       "privacy_link": "Politique de confidentialité",
       "guide": "Pour un guide sur l'utilisation du Grimoire Numérique, veuillez regarder",
       "guide_link": "cette vidéo sur YouTube",
-      "donation": "Si vous appréciez le travail que j'ai consacré à cet outil,",
-      "donation_link": "les dons",
-      "donation_thanks": "sont les bienvenus. Merci.",
       "clear_cache": "Vider le cache",
       "clearing_cache": "Vidage du cache...",
       "cache_cleared": "Cache vidé !"
@@ -417,6 +416,7 @@
     "demon_info_first_night_reminder": "S'il y a 7 joueurs ou plus, réveillez le Démon :\n\tMontrez le jeton *CE SONT VOS SBIRES*. Pointez vers tous les Sbires.\n\tMontrez le jeton *CES PERSONNAGES NE SONT PAS EN JEU*. Montrez 3 jetons de personnages gentils qui ne sont pas en jeu."
   },
   "setup": {
+    "layout_help": "Choisissez la disposition des places.\nCelle-ci peut être ajustée manuellement par la suite.",
     "choose_script": "Choisissez votre script",
     "select_from_official": "Sélectionnez parmi les scripts officiels ou recherchez des scripts personnalisés",
     "players": "{count} Joueurs",
@@ -438,8 +438,14 @@
     "disallow": "Interdire",
     "all": "Tous",
     "draw_tokens": "Tirer les jetons",
-    "draft_tokens": "Draft des rôles",
+    "distribution_method": "Méthode de distribution",
+    "storyteller_token_draw": "Conteur",
+    "mobile_token_distribution": "Mobile",
+    "draw_view_token": "Jetons",
+    "draw_view_bag": "Sac",
+    "start_setup": "Démarrer la configuration",
     "select_more_roles": "Sélectionnez {count} rôles de plus pour continuer",
+    "too_many_roles": "Supprimez {count} rôles pour continuer",
     "setup_warning": "Certains rôles choisis peuvent modifier la composition du village. Veuillez vérifier avant de continuer.",
     "multiple_demons_warning": "Plusieurs démons détectés qui n'autorisent pas plusieurs instances.",
     "player_names": "Noms des joueurs",
@@ -509,11 +515,14 @@
         "town_info_travellers": "Voyageurs",
         "town_info_dead": "Morts",
         "town_info_votes": "Votes Restants",
-        "town_info_majority": "Majorité"
+        "town_info_majority": "Majorité",
+        "start_game": "Démarrer le jeu",
+        "assign_progress": "{assigned} sur {total} places remplies",
+        "tap_seat_to_assign": "Appuyer pour assigner un joueur à cette place",
+        "seat": "Place"
   },
   "draw_tokens": {
-    "random_draw": "Tirage aléatoire",
-    "random": "Aléatoire",
+    "back_to_setup": "Retour à la configuration",
     "mobile_distribution": "Distribution par mobile",
     "mobile": "Mobile",
     "manual_setup": "Configuration manuelle",
@@ -568,19 +577,11 @@
     "roles_assigned": "{assigned} sur {total} rôles attribués",
     "role_remaining": "1 rôle restant",
     "roles_remaining": "{count} rôles restants",
-    "assign_to_player": "Attribuer au joueur",
     "enter_player_name": "Entrez le nom du joueur",
     "quick_select": "Sélection rapide:",
     "assign_role_button": "Attribuer le rôle",
-    "draft_mode": "Draft",
-    "draft": "Draft",
-    "draft_description": "Les joueurs choisissent à tour de rôle parmi un maximum de 3 jetons",
-    "start_draft": "Commencer le draft",
-    "wake_player": "Réveiller place {number}",
     "choose_role": "Choisissez un rôle",
-    "draft_complete": "Tous les rôles ont été choisis",
-    "resume_draft": "Reprendre le draft",
-    "restart_draft": "Recommencer le draft"
+    "manual_assign": "Attribuer manuellement"
   },
   "town": {
     "toggle_widgets": "Basculer les widgets",
@@ -605,7 +606,8 @@
     "tap_to_reveal": "Touchez les jetons pour révéler les rôles",
     "reveal_all": "Tout révéler",
     "widget_dark_background": "Fonds sombres des widgets",
-    "edit_night_icons": "Modifier les icônes de l'ordre de nuit..."
+    "edit_night_icons": "Modifier les icônes de l'ordre de nuit...",
+    "seat": "Place"
   },
   "cards": {
     "this_is_the_demon": "VOICI LE DÉMON",
@@ -699,7 +701,14 @@
     "your_character": "Votre rôle",
     "no_character_info": "Aucune information de rôle disponible",
     "enter_session_details": "Entrez les détails de la session ci-dessus pour vous connecter",
-    "connect_to_participate": "Connectez-vous à une session pour participer au jeu"
+    "connect_to_participate": "Connectez-vous à une session pour participer au jeu",
+    "your_seat": "Votre place",
+    "select_seat": "Sélectionnez une place...",
+    "seat_label": "Place {number}",
+    "taken": "occupée",
+    "loading_session": "Chargement des informations de la session...",
+    "error_session_not_found": "Session introuvable. Veuillez vérifier l'identifiant de session.",
+    "error_seat_taken": "Cette place vient d'être prise. Veuillez en choisir une autre."
   },
   "privacy": {
     "title": "Politique de confidentialité"

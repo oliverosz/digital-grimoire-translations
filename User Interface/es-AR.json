@@ -6,6 +6,7 @@
     "close": "Cerrar",
     "cancel": "Cancelar",
     "confirm": "Confirmar",
+    "are_you_sure": "¿Estás seguro?",
     "open": "Abrir",
     "save": "Guardar",
     "delete": "Borrar",
@@ -53,6 +54,7 @@
     "send": "Mandar",
     "leaves": "Hojas",
     "player_numbers": "Números de jugadores",
+    "death_details": "Detalles de muerte",
     "type_icons": "Iconos de tipo",
     "flip": "Voltear horizontalmente",
     "u_shape": "Sonrisa",
@@ -131,9 +133,6 @@
       "privacy_link": "Política de Privacidad",
       "guide": "Para un tutorial sobre cómo usar el Grimorio Digital, por favor, mirá",
       "guide_link": "este video en Youtube",
-      "donation": "Si apreciás el laburo que le puse a esta herramienta,",
-      "donation_link": "las donaciones",
-      "donation_thanks": "son más que bienvenidas. Gracias.",
       "clear_cache": "Limpiar Caché",
       "clearing_cache": "Limpiando Caché...",
       "cache_cleared": "Caché limpito!"
@@ -417,6 +416,7 @@
     "demon_info_first_night_reminder": "Si hay 7 o más jugadores, despertá al Demonio:\n\tMostrale la tarjeta 'Estos son tus Secuaces'. Apuntá a todos los Secuaces.\n\tMostrale las 3 farsas con la tarjeta 'Estos personajes no están en juego'."
   },
   "setup": {
+    "layout_help": "Elegí la forma de disposición de los asientos.\nPodés ajustarla manualmente más tarde.",
     "choose_script": "Elegí tu guión",
     "select_from_official": "Seleccioná un guión oficial o buscá uno personalizado.",
     "players": "{count} jugadores",
@@ -438,8 +438,14 @@
     "disallow": "Impedir",
     "all": "Todas",
     "draw_tokens": "Robar fichas",
-    "draft_tokens": "Draft de roles",
+    "distribution_method": "Método de distribución",
+    "storyteller_token_draw": "Narrador",
+    "mobile_token_distribution": "Móvil",
+    "draw_view_token": "Fichas",
+    "draw_view_bag": "Bolsa",
+    "start_setup": "Iniciar configuración",
     "select_more_roles": "Seleccioná {count} roles más para continuar",
+    "too_many_roles": "Quitá {count} roles para continuar",
     "setup_warning": "Algunos de los roles elegidos alteran la composición del pueblo. Por favor, revisalos antes de continuar.",
     "multiple_demons_warning": "Se detectaron múltiples Demonios sin justificación mecánica.",
     "player_names": "Nombre de los jugadores",
@@ -509,11 +515,14 @@
         "town_info_travellers": "Viajeros",
         "town_info_dead": "Muertos",
         "town_info_votes": "Votos Restantes",
-        "town_info_majority": "Mayoría"
+        "town_info_majority": "Mayoría",
+        "start_game": "Empezar partida",
+        "assign_progress": "{assigned} de {total} asientos ocupados",
+        "tap_seat_to_assign": "Tocá para asignar un jugador a este asiento",
+        "seat": "Asiento"
   },
   "draw_tokens": {
-    "random_draw": "Robo aleatorio de fichas",
-    "random": "Aleatorio",
+    "back_to_setup": "Volver a la configuración",
     "mobile_distribution": "Repartija móvil",
     "mobile": "Movíl",
     "manual_setup": "Repartija manual",
@@ -568,19 +577,11 @@
     "roles_assigned": "Se asignaron {assigned} de {total} roles",
     "role_remaining": "Queda 1 rol",
     "roles_remaining": "Quedan {count} roles",
-    "assign_to_player": "Asignar a jugador",
     "enter_player_name": "Ingresá el nombre del jugador",
     "quick_select": "Selección rápida:",
     "assign_role_button": "Asignar rol",
-    "draft_mode": "Draft",
-    "draft": "Draft",
-    "draft_description": "Los jugadores eligen por turnos entre un máximo de 3 fichas",
-    "start_draft": "Iniciar Draft",
-    "wake_player": "Despertar Asiento {number}",
     "choose_role": "Elegí un Rol",
-    "draft_complete": "Todos los roles fueron elegidos",
-    "resume_draft": "Reanudar Draft",
-    "restart_draft": "Reiniciar Draft"
+    "manual_assign": "Asignar manualmente"
   },
   "town": {
     "toggle_widgets": "Alternar widgets",
@@ -605,7 +606,8 @@
     "tap_to_reveal": "Tocá las fichas para irlas revelando",
     "reveal_all": "Revelar todo",
     "widget_dark_background": "Fondos oscuros de widgets",
-    "edit_night_icons": "Editar iconos del orden nocturno..."
+    "edit_night_icons": "Editar iconos del orden nocturno...",
+    "seat": "Asiento"
   },
   "cards": {
     "this_is_the_demon": "ESTE ES EL DEMONIO",
@@ -699,7 +701,14 @@
     "your_character": "Tu personaje",
     "no_character_info": "No hay información de personaje disponible",
     "enter_session_details": "Ingresá los detalles de la sesión arriba para conectarte",
-    "connect_to_participate": "Conectate a una sesión para participar en el juego"
+    "connect_to_participate": "Conectate a una sesión para participar en el juego",
+    "your_seat": "Tu asiento",
+    "select_seat": "Elegí un asiento...",
+    "seat_label": "Asiento {number}",
+    "taken": "ocupado",
+    "loading_session": "Cargando información de la sesión...",
+    "error_session_not_found": "No se encontró la sesión. Por favor, revisá el ID de sesión.",
+    "error_seat_taken": "Ese asiento acaba de ser ocupado. Por favor, elegí otro."
   },
   "privacy": {
     "title": "Política de Privacidad"

@@ -6,6 +6,7 @@
     "close": "Chiudi",
     "cancel": "Annulla",
     "confirm": "Conferma",
+    "are_you_sure": "Sei sicuro?",
     "open": "Apri",
     "save": "Salva",
     "delete": "Elimina",
@@ -17,6 +18,7 @@
     "layout": "Disposizione",
     "leaves": "Foglie",
     "player_numbers": "Numeri dei Giocatori",
+    "death_details": "Dettagli Morte",
     "type_icons": "Icone di Tipo",
     "flip": "Specchia Orizzontalmente",
     "circle": "Cerchio",
@@ -131,9 +133,6 @@
       "privacy_link": "Informativa sulla Privacy",
       "guide": "Per una guida su come usare il Grimorio Digitale, guarda",
       "guide_link": "questo video su YouTube",
-      "donation": "Se apprezzi il lavoro svolto su questo strumento, le",
-      "donation_link": "donazioni",
-      "donation_thanks": "sono molto gradite. Grazie.",
       "clear_cache": "Cancella Cache",
       "clearing_cache": "Cancellazione Cache...",
       "cache_cleared": "Cache Cancellata!"
@@ -417,6 +416,7 @@
     "demon_info_first_night_reminder": "Se ci sono 7 o più giocatori, sveglia il Demone:\n\tMostra la carta *QUESTI SONO I TUOI SEGUACI*. Indica tutti gli Seguaci.\n\tMostra la carta *QUESTI PERSONAGGI NON SONO IN GIOCO*. Mostra i gettoni di 3 personaggi buoni non-in-gioco."
   },
   "setup": {
+    "layout_help": "Scegli la forma della disposizione dei posti.\nPuò essere modificata manualmente in seguito.",
     "choose_script": "Scegli il Copione",
     "select_from_official": "Seleziona tra copioni ufficiali o cerca copioni personalizzati",
     "players": "{count} Giocatori",
@@ -438,8 +438,14 @@
     "disallow": "Non consentire",
     "all": "Tutti",
     "draw_tokens": "Pesca i Gettoni",
-    "draft_tokens": "Scegli i Ruoli",
+    "distribution_method": "Metodo di Distribuzione",
+    "storyteller_token_draw": "Narratore",
+    "mobile_token_distribution": "Mobile",
+    "draw_view_token": "Gettoni",
+    "draw_view_bag": "Sacchetto",
+    "start_setup": "Avvia Configurazione",
     "select_more_roles": "Seleziona altri {count} ruoli per continuare",
+    "too_many_roles": "Rimuovi {count} ruoli per continuare",
     "setup_warning": "Alcuni ruoli selezionati potrebbero modificare la composizione del villaggio. Controlla prima di continuare.",
     "multiple_demons_warning": "Rilevati più Demoni che non consentono istanze multiple.",
     "player_names": "Nomi dei Giocatori",
@@ -509,11 +515,14 @@
         "town_info_travellers": "Viaggiatori",
         "town_info_dead": "Morti",
         "town_info_votes": "Voti Rimanenti",
-        "town_info_majority": "Maggioranza"
+        "town_info_majority": "Maggioranza",
+        "start_game": "Inizia Partita",
+        "assign_progress": "{assigned} di {total} posti occupati",
+        "tap_seat_to_assign": "Tocca per assegnare un giocatore a questo posto",
+        "seat": "Posto"
   },
   "draw_tokens": {
-    "random_draw": "Pesca Casuale",
-    "random": "Casuale",
+    "back_to_setup": "Torna alla Configurazione",
     "mobile_distribution": "Distribuzione Mobile",
     "mobile": "Mobile",
     "manual_setup": "Configurazione Manuale",
@@ -568,19 +577,11 @@
     "roles_assigned": "{assigned} di {total} ruoli assegnati",
     "role_remaining": "1 ruolo rimanente",
     "roles_remaining": "{count} ruoli rimanenti",
-    "assign_to_player": "Assegna al Giocatore",
     "enter_player_name": "Inserisci nome giocatore",
     "quick_select": "Selezione Rapida:",
     "assign_role_button": "Assegna Ruolo",
-    "draft_mode": "Draft",
-    "draft": "Draft",
-    "draft_description": "I giocatori scelgono a turno tra un massimo di 3 gettoni",
-    "start_draft": "Inizia Draft",
-    "wake_player": "Sveglia Posto {number}",
     "choose_role": "Scegli un Ruolo",
-    "draft_complete": "Tutti i ruoli sono stati scelti",
-    "resume_draft": "Riprendi Draft",
-    "restart_draft": "Ricomincia Draft"
+    "manual_assign": "Assegna manualmente"
   },
   "town": {
     "toggle_widgets": "Mostra/Nascondi Widgets",
@@ -605,7 +606,8 @@
     "tap_to_reveal": "Tocca i gettoni per rivelare i ruoli",
     "reveal_all": "Rivela Tutto",
     "widget_dark_background": "Sfondi Scuri Widget",
-    "edit_night_icons": "Modifica Icone Ordine Notte..."
+    "edit_night_icons": "Modifica Icone Ordine Notte...",
+    "seat": "Posto"
   },
   "cards": {
     "this_is_the_demon": "QUESTO È IL DEMONE",
@@ -699,7 +701,14 @@
     "your_character": "Il tuo personaggio",
     "no_character_info": "Nessuna informazione sul personaggio disponibile",
     "enter_session_details": "Inserisci i dettagli della sessione per connetterti",
-    "connect_to_participate": "Connettiti a una sessione per partecipare alla partita"
+    "connect_to_participate": "Connettiti a una sessione per partecipare alla partita",
+    "your_seat": "Il tuo Posto",
+    "select_seat": "Seleziona un posto...",
+    "seat_label": "Posto {number}",
+    "taken": "occupato",
+    "loading_session": "Caricamento informazioni sessione...",
+    "error_session_not_found": "Sessione non trovata. Controlla l'ID sessione.",
+    "error_seat_taken": "Quel posto è appena stato occupato. Scegline un altro."
   },
   "privacy": {
     "title": "Informativa sulla privacy"

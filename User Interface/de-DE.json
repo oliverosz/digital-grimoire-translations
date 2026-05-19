@@ -6,6 +6,7 @@
     "close": "Schließen",
     "cancel": "Abbrechen",
     "confirm": "Bestätigen",
+    "are_you_sure": "Bist du sicher?",
     "open": "Öffnen",
     "save": "Speichern",
     "delete": "Löschen",
@@ -17,6 +18,7 @@
     "layout": "Layout",
     "leaves": "Blätter",
     "player_numbers": "Spielernummern",
+    "death_details": "Todesdetails",
     "type_icons": "Typen-Symbole",
     "flip": "Horizontal umkehren",
     "circle": "Kreis",
@@ -131,9 +133,6 @@
       "privacy_link": "Datenschutzerklärung",
       "guide": "Eine Anleitung zur Verwendung des Digital Grimoire finden Sie in",
       "guide_link": "diesem Video auf YouTube",
-      "donation": "Wenn Sie die Arbeit schätzen, die ich in dieses Tool gesteckt habe,",
-      "donation_link": "Spenden",
-      "donation_thanks": "sind sehr willkommen. Vielen Dank.",
       "clear_cache": "Cache leeren",
       "clearing_cache": "Cache wird geleert...",
       "cache_cleared": "Cache geleert!"
@@ -417,6 +416,7 @@
     "demon_info_first_night_reminder": "Wenn 7 oder mehr Spieler vorhanden sind, wecke den Dämon:\n\tZeige das *DIES SIND DEINE SCHERGEN* Token. Zeige auf alle Schergen.\n\tZeige das *DIESE CHARAKTERE SIND NICHT IM SPIEL* Token. Zeige 3 nicht im Spiel befindliche gute Charakter-Token."
   },
   "setup": {
+    "layout_help": "Wählen Sie die Form der Sitzanordnung.\nDiese kann später manuell angepasst werden.",
     "choose_script": "Wählen Sie Ihr Skript",
     "select_from_official": "Wählen Sie aus offiziellen Skripten oder suchen Sie nach benutzerdefinierten",
     "players": "{count} Spieler",
@@ -438,8 +438,14 @@
     "disallow": "Verbieten",
     "all": "Alle",
     "draw_tokens": "Token ziehen",
-    "draft_tokens": "Rollen-Draft",
+    "distribution_method": "Verteilungsmethode",
+    "storyteller_token_draw": "Erzähler",
+    "mobile_token_distribution": "Mobil",
+    "draw_view_token": "Token",
+    "draw_view_bag": "Beutel",
+    "start_setup": "Setup starten",
     "select_more_roles": "Wählen Sie {count} weitere Rollen aus, um fortzufahren",
+    "too_many_roles": "Entfernen Sie {count} Rollen, um fortzufahren",
     "setup_warning": "Einige ausgewählte Rollen können die Stadtzusammensetzung ändern. Bitte überprüfen Sie dies, bevor Sie fortfahren.",
     "multiple_demons_warning": "Mehrere Dämonen erkannt, die keine mehrfachen Instanzen zulassen.",
     "player_names": "Spielernamen",
@@ -509,11 +515,14 @@
         "town_info_travellers": "Reisende",
         "town_info_dead": "Tot",
         "town_info_votes": "Verbleibende Stimmen",
-        "town_info_majority": "Mehrheit"
+        "town_info_majority": "Mehrheit",
+        "start_game": "Spiel starten",
+        "assign_progress": "{assigned} von {total} Plätzen besetzt",
+        "tap_seat_to_assign": "Tippen, um diesem Platz einen Spieler zuzuweisen",
+        "seat": "Platz"
   },
   "draw_tokens": {
-    "random_draw": "Zufällige Ziehung",
-    "random": "Zufällig",
+    "back_to_setup": "Zurück zum Setup",
     "mobile_distribution": "Mobile Verteilung",
     "mobile": "Mobil",
     "manual_setup": "Manuelles Setup",
@@ -568,19 +577,11 @@
     "roles_assigned": "{assigned} von {total} Rollen zugewiesen",
     "role_remaining": "1 Rolle verbleibend",
     "roles_remaining": "{count} Rollen verbleibend",
-    "assign_to_player": "Spieler zuweisen",
     "enter_player_name": "Spielernamen eingeben",
     "quick_select": "Schnellauswahl:",
     "assign_role_button": "Rolle zuweisen",
-    "draft_mode": "Draft",
-    "draft": "Draft",
-    "draft_description": "Spieler wählen abwechselnd aus bis zu 3 Spielsteinen",
-    "start_draft": "Draft starten",
-    "wake_player": "Platz {number} wecken",
     "choose_role": "Wähle eine Rolle",
-    "draft_complete": "Alle Rollen wurden gewählt",
-    "resume_draft": "Draft fortsetzen",
-    "restart_draft": "Draft neu starten"
+    "manual_assign": "Manuell zuweisen"
   },
   "town": {
     "toggle_widgets": "Widgets umschalten",
@@ -605,7 +606,8 @@
     "tap_to_reveal": "Tippen Sie auf Token, um Rollen zu enthüllen",
     "reveal_all": "Alle enthüllen",
     "widget_dark_background": "Dunkle Widget-Hintergründe",
-    "edit_night_icons": "Nachtordnung-Symbole bearbeiten..."
+    "edit_night_icons": "Nachtordnung-Symbole bearbeiten...",
+    "seat": "Platz"
   },
   "cards": {
     "this_is_the_demon": "DIES IST DER DÄMON",
@@ -699,7 +701,14 @@
     "your_character": "Dein Charakter",
     "no_character_info": "Keine Charakterinformationen verfügbar",
     "enter_session_details": "Gib oben Sitzungsdetails ein, um dich zu verbinden",
-    "connect_to_participate": "Verbinde dich mit einer Sitzung, um am Spiel teilzunehmen"
+    "connect_to_participate": "Verbinde dich mit einer Sitzung, um am Spiel teilzunehmen",
+    "your_seat": "Dein Platz",
+    "select_seat": "Wähle einen Platz...",
+    "seat_label": "Platz {number}",
+    "taken": "belegt",
+    "loading_session": "Sitzungsinformationen werden geladen...",
+    "error_session_not_found": "Sitzung nicht gefunden. Bitte überprüfe die Sitzungs-ID.",
+    "error_seat_taken": "Dieser Platz wurde gerade belegt. Bitte wähle einen anderen."
   },
   "privacy": {
     "title": "Datenschutzerklärung"
