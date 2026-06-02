@@ -12,7 +12,7 @@
         "id": "dawn",
         "edition": "special",
         "name": "Dawn",
-        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.", 
         "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
         "firstNight": 73,
         "otherNight": 93
@@ -54,7 +54,7 @@
     },
     {
         "id": "librarian",
-        "name": "Bibliothecaresse",
+        "name": "Bibliothecaris",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 44,
@@ -75,15 +75,15 @@
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 45,
-        "firstNightReminder": "Toon het roltoken van een handlanger die in het spel is. Wijs naar twee spelers, van wie er één die rol heeft.",
+        "firstNightReminder": "Toon het roltoken van een minion die in het spel is. Wijs naar twee spelers, van wie er één die rol heeft.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Handlanger",
+            "minion",
             "onjuist"
         ],
         "setup": false,
-        "ability": "Je ontdekt aan het begin dat 1 van 2 spelers een bepaalde handlanger is.",
+        "ability": "Je ontdekt aan het begin dat 1 van 2 spelers een bepaalde minion is.",
         "special": null
     },
     {
@@ -102,13 +102,13 @@
     },
     {
         "id": "empath",
-        "name": "Empath",
+        "name": "Empaat",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 47,
-        "firstNightReminder": "Toon met de hand (0, 1, 2) hoeveel levende buren van de Empath kwaad zijn.",
+        "firstNightReminder": "Toon met de hand (0, 1, 2) hoeveel levende buren van de Empaat kwaad zijn.",
         "otherNight": 69,
-        "otherNightReminder": "Toon met de hand (0, 1, 2) hoeveel levende buren van de Empath kwaad zijn.",
+        "otherNightReminder": "Toon met de hand (0, 1, 2) hoeveel levende buren van de Empaat kwaad zijn.",
         "reminders": [],
         "setup": false,
         "ability": "Je ontdekt elke nacht hoeveel van je twee levende buren kwaad zijn.",
@@ -127,7 +127,7 @@
             "Vals spoor"
         ],
         "setup": false,
-        "ability": "Kies elke nacht 2 spelers: je ontdekt of er een demon onder hen is. Er is een goede speler die voor jou als demon verschijnt.",
+        "ability": "Kies elke nacht 2 spelers: je ontdekt of er een demon onder hen is. Er is een goede speler die voor jou als demon voordoet.",
         "special": null
     },
     {
@@ -289,7 +289,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Je kunt verschijnen als kwaad, of als handlanger of demon, zelfs als je dood bent.",
+        "ability": "Je kunt verschijnen als kwaad, of als minion of demon, zelfs als je dood bent.",
         "special": null
     },
     {
@@ -338,13 +338,13 @@
     },
     {
         "id": "scarletwoman",
-        "name": "Scharlakenrode Vrouw",
+        "name": "Bloedrode Vrouw",
         "edition": "tb",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 28,
-        "otherNightReminder": "Als de Scharlakenrode Vrouw vandaag de demon is geworden: toon haar de 'Jij bent'-kaart en dan het demontoken.",
+        "otherNightReminder": "Als de Bloedrode Vrouw vandaag de demon is geworden: toon haar de 'Jij bent'-kaart en dan het demontoken.",
         "reminders": [
             "Is de demon"
         ],
@@ -374,12 +374,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 35,
-        "otherNightReminder": "De Imp wijst naar een speler. Die speler sterft. Als de Imp zichzelf kiest: vervang de rol van een levende handlanger door een overgebleven Imp-token. Toon die speler de 'Jij bent'-kaart en dan het Imp-token.",
+        "otherNightReminder": "De Imp wijst naar een speler. Die speler sterft. Als de Imp zichzelf kiest: vervang de rol van een levende minion door een overgebleven Imp-token. Toon die speler de 'Jij bent'-kaart en dan het Imp-token.",
         "reminders": [
             "Dood"
         ],
         "setup": false,
-        "ability": "Kies elke nacht* 1 speler: hij sterft. Als je daarmee jezelf doodt, wordt een handlanger de Imp.",
+        "ability": "Kies elke nacht* 1 speler: hij sterft. Als je daarmee jezelf doodt, wordt een minion de Imp.",
         "special": null
     },
     {
@@ -618,7 +618,7 @@
             "Iedereen is dronken"
         ],
         "setup": false,
-        "ability": "Als een handlanger door een executie sterft, zijn alle andere spelers (uitgezonderd reizigers) dronken tot het einde van de volgende dag.",
+        "ability": "Als een minion door een executie sterft, zijn alle andere spelers (uitgezonderd reizigers) dronken tot het einde van de volgende dag.",
         "special": null
     },
     {
@@ -722,7 +722,7 @@
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 14,
-        "firstNightReminder": "Bij 7 of meer spelers: toon de Waanzinnige het aantal 'handlangers' in het spel. Als de demon die de Waanzinnige ziet een demon is die 's nachts wakker wordt: sta de Waanzinnige toe demonenacties uit te voeren. Plaats de 'aanval'-markering. Als de Waanzinnige een speler kiest: wek de demon. Toon hem de 'aanval'-markering, wijs dan naar elke door de Waanzinnige gemarkeerde speler. Verwijder de 'aanval'-markeringen van de Waanzinnige.",
+        "firstNightReminder": "Bij 7 of meer spelers: toon de Waanzinnige het aantal 'minions' in het spel. Als de demon die de Waanzinnige ziet een demon is die 's nachts wakker wordt: sta de Waanzinnige toe demonenacties uit te voeren. Plaats de 'aanval'-markering. Als de Waanzinnige een speler kiest: wek de demon. Toon hem de 'aanval'-markering, wijs dan naar elke door de Waanzinnige gemarkeerde speler. Verwijder de 'aanval'-markeringen van de Waanzinnige.",
         "otherNight": 30,
         "otherNightReminder": "Sta de Waanzinnige toe demonenacties uit te voeren. Plaats de 'aanval'-markering. Als de Waanzinnige een speler kiest: wek de demon. Toon hem de 'aanval'-markering, wijs dan naar elke door de Waanzinnige gemarkeerde speler. Verwijder de 'aanval'-markeringen van de Waanzinnige.",
         "reminders": [
@@ -812,7 +812,7 @@
             "Dood"
         ],
         "setup": false,
-        "ability": "Als er overdag niemand is gestorven, kies elke nacht* 1 speler: hij sterft. Als je voor het eerst sterft, sterf je niet, maar je verschijnt als dood.",
+        "ability": "Als er overdag niemand is gestorven, kies elke nacht* 1 speler: hij sterft. Als je voor het eerst sterft, sterf je niet, maar je voordoet als dood.",
         "special": null
     },
     {
@@ -876,14 +876,14 @@
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 3,
-        "firstNightReminder": "Toon de Leerling eerst de 'Jij bent'-kaart en dan de kaart van een dorpeling of handlanger. Vervang in het Grimoire de kaart van de Leerling door de karakterkaart en leg de 'Is de leerling'-herinnering op de karakterkaart.",
+        "firstNightReminder": "Toon de Leerling eerst de 'Jij bent'-kaart en dan de kaart van een dorpeling of minion. Vervang in het Grimoire de kaart van de Leerling door de karakterkaart en leg de 'Is de leerling'-herinnering op de karakterkaart.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
             "Is de leerling"
         ],
         "setup": false,
-        "ability": "In je eerste nacht krijg je de vaardigheid van een dorpeling (als je goed bent) of een handlanger (als je kwaad bent).",
+        "ability": "In je eerste nacht krijg je de vaardigheid van een dorpeling (als je goed bent) of een minion (als je kwaad bent).",
         "special": null
     },
     {
@@ -953,12 +953,12 @@
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 51,
-        "firstNightReminder": "Toon met de hand het aantal plaatsen tussen de demon en de dichtstbijzijnde handlanger.",
+        "firstNightReminder": "Toon met de hand het aantal plaatsen tussen de demon en de dichtstbijzijnde minion.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Je ontdekt aan het begin hoeveel plaatsen de demon verwijderd zit van zijn dichtstbijzijnde handlanger.",
+        "ability": "Je ontdekt aan het begin hoeveel plaatsen de demon verwijderd zit van zijn dichtstbijzijnde minion.",
         "special": null
     },
     {
@@ -1036,13 +1036,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 74,
-        "otherNightReminder": "Knik (ja) of schud je hoofd (nee) om aan te geven of een handlanger vandaag heeft genomineerd. Plaats de markering 'Handlanger niet genomineerd' of 'Handlanger genomineerd'.",
+        "otherNightReminder": "Knik (ja) of schud je hoofd (nee) om aan te geven of een minion vandaag heeft genomineerd. Plaats de markering 'minion niet genomineerd' of 'minion genomineerd'.",
         "reminders": [
-            "Handlanger niet genomineerd",
-            "Handlanger genomineerd"
+            "minion niet genomineerd",
+            "minion genomineerd"
         ],
         "setup": false,
-        "ability": "Je ontdekt elke nacht* of er overdag een handlanger heeft genomineerd.",
+        "ability": "Je ontdekt elke nacht* of er overdag een minion heeft genomineerd.",
         "special": null
     },
     {
@@ -1309,7 +1309,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 44,
-        "otherNightReminder": "De Vigormortis wijst naar een speler. Die speler sterft. Is het een handlanger, dan behoudt hij zijn vaardigheid en is een dorpeling vergiftigd.",
+        "otherNightReminder": "De Vigormortis wijst naar een speler. Die speler sterft. Is het een minion, dan behoudt hij zijn vaardigheid en is een dorpeling vergiftigd.",
         "reminders": [
             "Dood",
             "heeft vaardigheid",
@@ -1320,7 +1320,7 @@
             "Vergiftigd"
         ],
         "setup": true,
-        "ability": "Kies elke nacht* 1 speler: hij sterft. Handlangers die je doodt, behouden hun vaardigheid en vergiftigen 1 aangrenzende dorpeling. [-1 buitenstaander]",
+        "ability": "Kies elke nacht* 1 speler: hij sterft. minions die je doodt, behouden hun vaardigheid en vergiftigen 1 aangrenzende dorpeling. [-1 buitenstaander]",
         "special": null
     },
     {
@@ -1509,16 +1509,16 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 20,
-        "firstNightReminder": "De Prediker kiest een speler. Als een handlanger is gekozen, wek de handlanger en toon hem de 'Dit karakter heeft jou gekozen'-kaart en daarna het token van de Prediker.",
+        "firstNightReminder": "De Prediker kiest een speler. Als een minion is gekozen, wek de minion en toon hem de 'Dit karakter heeft jou gekozen'-kaart en daarna het token van de Prediker.",
         "otherNight": 10,
-        "otherNightReminder": "De Prediker kiest een speler. Als een handlanger is gekozen, wek de handlanger en toon hem de 'Dit karakter heeft jou gekozen'-kaart en daarna het token van de Prediker.",
+        "otherNightReminder": "De Prediker kiest een speler. Als een minion is gekozen, wek de minion en toon hem de 'Dit karakter heeft jou gekozen'-kaart en daarna het token van de Prediker.",
         "reminders": [
             "Bij een preek",
             "Bij een preek",
             "Bij een preek"
         ],
         "setup": false,
-        "ability": "Kies elke nacht 1 speler: is hij een handlanger, dan ontdekt hij dat. Alle gekozen handlangers hebben geen vaardigheid.",
+        "ability": "Kies elke nacht 1 speler: is hij een minion, dan ontdekt hij dat. Alle gekozen minions hebben geen vaardigheid.",
         "special": null
     },
     {
@@ -1579,7 +1579,7 @@
             "Faux Paw"
         ],
         "setup": false,
-        "ability": "Kies elke nacht* 1 levende speler: is hij goed, dan sterft hij en doodt de demon deze nacht niet. Een goede speler verschijnt als kwaad.",
+        "ability": "Kies elke nacht* 1 levende speler: is hij goed, dan sterft hij en doodt de demon deze nacht niet. Een goede speler voordoet als kwaad.",
         "special": null
     },
     {
@@ -1622,14 +1622,14 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 19,
-        "firstNightReminder": "De Ingenieur schudt zijn hoofd (nee) of wijst naar een demon of het juiste aantal ondergeschikten. Als hij naar een demon of handlanger wijst: vervang alle demonen of handlangers door de gekozen karakters. Informeer de nieuwe handlangers en demonen over hun nieuwe rollen.",
+        "firstNightReminder": "De Ingenieur schudt zijn hoofd (nee) of wijst naar een demon of het juiste aantal ondergeschikten. Als hij naar een demon of minion wijst: vervang alle demonen of minions door de gekozen karakters. Informeer de nieuwe minions en demonen over hun nieuwe rollen.",
         "otherNight": 9,
-        "otherNightReminder": "De Ingenieur schudt zijn hoofd (nee) of wijst naar een demon of het juiste aantal ondergeschikten. Als hij naar een demon of handlanger wijst: vervang alle demonen of handlangers door de gekozen karakters. Informeer de nieuwe handlangers en demonen over hun nieuwe rollen.",
+        "otherNightReminder": "De Ingenieur schudt zijn hoofd (nee) of wijst naar een demon of het juiste aantal ondergeschikten. Als hij naar een demon of minion wijst: vervang alle demonen of minions door de gekozen karakters. Informeer de nieuwe minions en demonen over hun nieuwe rollen.",
         "reminders": [
             "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Je mag eenmaal in het spel 's nachts kiezen welke handlangers in het spel zijn of welke demon.",
+        "ability": "Je mag eenmaal in het spel 's nachts kiezen welke minions in het spel zijn of welke demon.",
         "special": null
     },
     {
@@ -1670,12 +1670,12 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 9,
-        "firstNightReminder": "Toon de Alchemist het speelstuk van een handlanger die niet in het spel is.",
+        "firstNightReminder": "Toon de Alchemist het speelstuk van een minion die niet in het spel is.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Je hebt een handlangersvaardigheid. Als je die gebruikt, mag de spelleider je vragen opnieuw te kiezen.",
+        "ability": "Je hebt een minionsvaardigheid. Als je die gebruikt, mag de spelleider je vragen opnieuw te kiezen.",
         "special": [
             {
                 "type": "reveal",
@@ -1711,7 +1711,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "De demon denkt dat je een handlanger bent. Handlangers denken dat je een demon bent.",
+        "ability": "De demon denkt dat je een minion bent. minions denken dat je een demon bent.",
         "special": null
     },
     {
@@ -1734,14 +1734,14 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 10,
-        "firstNightReminder": "Vertel noch de demon noch de handlangers wie de andere kwade medespelers zijn.",
+        "firstNightReminder": "Vertel noch de demon noch de minions wie de andere kwade medespelers zijn.",
         "otherNight": 7,
         "otherNightReminder": "Als de Maanzaadkweker sterft: toon de ondergeschikten en de demon wie de andere spelers zijn.",
         "reminders": [
             "Kwaad wakker"
         ],
         "setup": false,
-        "ability": "Handlangers en demonen kennen elkaar niet. Als je sterft, ontdekken zij elkaar 's nachts.",
+        "ability": "minions en demonen kennen elkaar niet. Als je sterft, ontdekken zij elkaar 's nachts.",
         "special": null
     },
     {
@@ -1781,12 +1781,12 @@
         "edition": "",
         "team": "outsider",
         "firstNight": 13,
-        "firstNightReminder": "Nadat de handlangers hun informatie hebben gekregen: wek elke handlanger en toon hem drie karakters die niet in het spel zijn.",
+        "firstNightReminder": "Nadat de minions hun informatie hebben gekregen: wek elke minion en toon hem drie karakters die niet in het spel zijn.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Elke handlanger krijgt 3 bluffs.",
+        "ability": "Elke minion krijgt 3 bluffs.",
         "special": null
     },
     {
@@ -1842,14 +1842,14 @@
         "edition": "",
         "team": "outsider",
         "firstNight": 41,
-        "firstNightReminder": "Wek alle handlangers en toon hen de 'Dit karakter heeft jou gekozen'-kaart en de kaart van de Jonkvrouw.",
+        "firstNightReminder": "Wek alle minions en toon hen de 'Dit karakter heeft jou gekozen'-kaart en de kaart van de Jonkvrouw.",
         "otherNight": 62,
         "otherNightReminder": "Wek de Jonkvrouw als zij door de Jager is gekozen en toon haar de 'Jij bent'-kaart en een token van een dorpeling die niet in het spel is.",
         "reminders": [
             "Gokpoging verbruikt"
         ],
         "setup": false,
-        "ability": "Alle handlangers weten dat de Jonkvrouw in het spel is. Een handlanger kan eenmaal in het spel openlijk raden wie de Jonkvrouw is: als hij het goed heeft, verliest jouw team.",
+        "ability": "Alle minions weten dat de Jonkvrouw in het spel is. Een minion kan eenmaal in het spel openlijk raden wie de Jonkvrouw is: als hij het goed heeft, verliest jouw team.",
         "special": null
     },
     {
@@ -2010,12 +2010,12 @@
         "edition": "",
         "team": "demon",
         "firstNight": 21,
-        "firstNightReminder": "Wek alle handlangers samen. Ze moeten het eens worden over wie van hen het Kleine Monster bewaakt.",
+        "firstNightReminder": "Wek alle minions samen. Ze moeten het eens worden over wie van hen het Kleine Monster bewaakt.",
         "otherNight": 48,
-        "otherNightReminder": "Wek alle handlangers samen. Ze moeten het eens worden over wie van hen het Kleine Monster bewaakt. Kies een speler, die speler sterft.",
+        "otherNightReminder": "Wek alle minions samen. Ze moeten het eens worden over wie van hen het Kleine Monster bewaakt. Kies een speler, die speler sterft.",
         "reminders": [],
         "setup": true,
-        "ability": "Elke nacht kiezen de handlangers wie het Kleine Monster bewaakt en wie de demon 'is'. Elke nacht* zou een speler kunnen sterven. [+1 handlanger]",
+        "ability": "Elke nacht kiezen de minions wie het Kleine Monster bewaakt en wie de demon 'is'. Elke nacht* zou een speler kunnen sterven. [+1 minion]",
         "special": [
             {
                 "type": "selection",
@@ -2082,7 +2082,7 @@
             "Sterft binnenkort"
         ],
         "setup": true,
-        "ability": "Elke nacht* zou een speler kunnen sterven. Executies mislukken als alleen kwade spelers hebben gestemd. Je verschijnt ook als handlanger. [De meeste spelers zijn Legioenen.]",
+        "ability": "Elke nacht* zou een speler kunnen sterven. Executies mislukken als alleen kwade spelers hebben gestemd. Je voordoet ook als minion. [De meeste spelers zijn Legioenen.]",
         "special": null
     },
     {
@@ -2117,7 +2117,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Op dag 3 worden handlangers Oproerkraaiers en genomineerden sterven, maar nomineren onmiddellijk een levende speler. Dit moet gebeuren.",
+        "ability": "Op dag 3 worden minions Oproerkraaiers en genomineerden sterven, maar nomineren onmiddellijk een levende speler. Dit moet gebeuren.",
         "special": null
     },
     {
@@ -2242,7 +2242,7 @@
             "Storyteller Ability"
         ],
         "setup": false,
-        "ability": "Als je sterft, krijgt de verteller de vaardigheid van een handlanger die niet in het spel is.",
+        "ability": "Als je sterft, krijgt de verteller de vaardigheid van een minion die niet in het spel is.",
         "special": null
     },
     {
@@ -2283,12 +2283,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 54,
-        "otherNightReminder": "Als de Hoedenmaker vandaag is gestorven: wek de handlangers en de demon. Toon hen de informatiemarkering en een aantal handlangers- en demonkarakters waarnaar zij eventueel willen wisselen. Elk van hen kan kiezen of hij naar een van die karakters wisselt.",
+        "otherNightReminder": "Als de Hoedenmaker vandaag is gestorven: wek de minions en de demon. Toon hen de informatiemarkering en een aantal minions- en demonkarakters waarnaar zij eventueel willen wisselen. Elk van hen kan kiezen of hij naar een van die karakters wisselt.",
         "reminders": [
             "Heute Abend Teeparty"
         ],
         "setup": false,
-        "ability": "Als je vandaag of vannacht bent gestorven, kunnen de handlanger- en demonspelers nieuwe handlanger- en demonkarakters kiezen.",
+        "ability": "Als je vandaag of vannacht bent gestorven, kunnen de minion- en demonspelers nieuwe minion- en demonkarakters kiezen.",
         "special": null
     },
     {
@@ -2297,14 +2297,14 @@
         "edition": "",
         "team": "demon",
         "firstNight": 2,
-        "firstNightReminder": "De Kazali wijst naar een speler en een dienaar op het karakterblad. Vervang zijn oude karaktertoken door het dienaarstoken en leg het 'Is een handlanger'-token op het karaktertoken. Herhaal totdat alle handlangers hun handlangertoken hebben.",
+        "firstNightReminder": "De Kazali wijst naar een speler en een dienaar op het karakterblad. Vervang zijn oude karaktertoken door het dienaarstoken en leg het 'Is een minion'-token op het karaktertoken. Herhaal totdat alle minions hun miniontoken hebben.",
         "otherNight": 50,
         "otherNightReminder": "De Kazali wijst naar een speler. Die speler sterft.",
         "reminders": [
             "Dood"
         ],
         "setup": true,
-        "ability": "Kies elke nacht* een speler: hij sterft. [Jij kiest welke spelers handlangers zijn. -? tot +? buitenstaanders]",
+        "ability": "Kies elke nacht* een speler: hij sterft. [Jij kiest welke spelers minions zijn. -? tot +? buitenstaanders]",
         "special": null
     },
     {
@@ -2402,7 +2402,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Je mag eenmaal per dag openlijk proberen te raden welke spelers handlangers en welke spelers demonen zijn. Als je het goed hebt, wint jouw team.",
+        "ability": "Je mag eenmaal per dag openlijk proberen te raden welke spelers minions en welke spelers demonen zijn. Als je het goed hebt, wint jouw team.",
         "special": []
     },
     {
@@ -2432,7 +2432,7 @@
             "Dood"
         ],
         "setup": true,
-        "ability": "Kies elke nacht* 1 speler: hij sterft. [Kwade spelers zitten op een rij. Jij zit in het midden. +1 handlanger. -? tot +? buitenstaanders]",
+        "ability": "Kies elke nacht* 1 speler: hij sterft. [Kwade spelers zitten op een rij. Jij zit in het midden. +1 minion. -? tot +? buitenstaanders]",
         "special": []
     },
     {
