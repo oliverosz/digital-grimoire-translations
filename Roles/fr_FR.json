@@ -884,8 +884,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Est l'Apprenti",
-            "Sans capacité"
+            "Est l'Apprenti"
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous gagnez une capacité de Villageois (si bon) ou une capacité de Sbire (si maléfique).",
