@@ -347,6 +347,9 @@
       "name": "Nome",
       "version": "Versione",
       "remove_from_favourites": "Rimuovi dai preferiti",
+      "tags": "Tag",
+      "add_tag": "Aggiungi tag",
+      "tag_placeholder": "Nuovo tag...",
       "no_favourite_scripts": "Nessun copione preferito.",
       "saved_games": "Partite Salvate",
       "created": "Creato",
@@ -594,7 +597,7 @@
     "assign_role_button": "Assegna Ruolo",
     "choose_role": "Scegli un Ruolo",
     "manual_assign": "Assegna manualmente",
-    "manual_assign_hint": "Dai un nome a un posto e premi Assegna per collocare quel giocatore (il suo ruolo viene ancora pescato). Aggiungi anche un ruolo per collocarlo ora e saltare la pesca.",
+    "manual_assign_hint": "Dai un nome a un posto e, facoltativamente, pre-assegna il suo ruolo, poi premi Assegna. Il giocatore pesca comunque il proprio gettone — la pre-assegnazione indica solo quale ruolo riceverà. Usa Assegna Automaticamente Tutti i Rimanenti per riempire ogni posto e saltare la pesca.",
     "status_to_draw": "Da pescare",
     "status_seated": "Assegnato",
     "pre_assign_role": "Pre-assegna ruolo"

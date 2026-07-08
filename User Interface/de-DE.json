@@ -347,6 +347,9 @@
       "name": "Name",
       "version": "Version",
       "remove_from_favourites": "Aus Favoriten entfernen",
+      "tags": "Tags",
+      "add_tag": "Tag hinzufügen",
+      "tag_placeholder": "Neuer Tag...",
       "no_favourite_scripts": "Keine favorisierten Skripte.",
       "saved_games": "Gespeicherte Spiele",
       "created": "Erstellt",
@@ -594,7 +597,7 @@
     "assign_role_button": "Rolle zuweisen",
     "choose_role": "Wähle eine Rolle",
     "manual_assign": "Manuell zuweisen",
-    "manual_assign_hint": "Gib einem Platz einen Namen und drücke Zuweisen, um den Spieler dort zu platzieren (die Rolle wird weiterhin gezogen). Füge auch eine Rolle hinzu, um sie sofort zu vergeben und die Ziehung zu überspringen.",
+    "manual_assign_hint": "Gib einem Platz einen Namen und weise optional eine Rolle vor, dann drücke Zuweisen. Der Spieler zieht noch immer sein eigenes Token – die Vorzuweisung legt nur fest, welche Rolle er erhalten wird. Nutze Alle verbleibenden automatisch zuweisen, um alle Plätze zu belegen und die Ziehung zu überspringen.",
     "status_to_draw": "Zu ziehen",
     "status_seated": "Platziert",
     "pre_assign_role": "Rolle vorab zuweisen"

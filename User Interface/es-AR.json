@@ -347,6 +347,9 @@
       "name": "Nombre",
       "version": "Versión",
       "remove_from_favourites": "Sacar de favoritos",
+      "tags": "Etiquetas",
+      "add_tag": "Añadir etiqueta",
+      "tag_placeholder": "Nueva etiqueta...",
       "no_favourite_scripts": "No hay guiones favoritos.",
       "saved_games": "Partidas guardadas",
       "created": "Creadas",
@@ -594,7 +597,7 @@
     "assign_role_button": "Asignar rol",
     "choose_role": "Elegí un Rol",
     "manual_assign": "Asignar manualmente",
-    "manual_assign_hint": "Dale un nombre a un asiento y apretá Asignar para sentar a ese jugador (su rol se sigue sorteando). Añadí también un rol para colocarlo ahora y saltearse el sorteo.",
+    "manual_assign_hint": "Dale nombre a un asiento y, opcionalmente, preasigná su rol; luego apretá Asignar. El jugador sigue sacando su propia ficha — la preasignación solo determina qué rol va a recibir. Usá Asignar automaticamente los restantes para ocupar todos los asientos y saltearse el sorteo.",
     "status_to_draw": "Por sortear",
     "status_seated": "Asignado",
     "pre_assign_role": "Preasignar rol"

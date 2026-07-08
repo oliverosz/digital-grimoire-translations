@@ -1,5 +1,33 @@
 [
     {
+        "id": "dusk",
+        "name": "Alkonyat",
+        "edition": "special",
+        "firstNightReminder": "Kezdd el az éjszakai fázist.",
+        "otherNightReminder": "Kezdd el az éjszakai fázist."
+    },
+    {
+        "id": "dawn",
+        "name": "Hajnal",
+        "edition": "special",
+        "firstNightReminder": "Várj néhány másodpercet. Fejezd be az éjszakai fázist.",
+        "otherNightReminder": "Várj néhány másodpercet. Fejezd be az éjszakai fázist."
+    },
+    {
+        "id": "minioninfo",
+        "name": "Csatlósok információja",
+        "team": "minion",
+        "edition": "special",
+        "firstNightReminder": "Ha 7 vagy több játékos van, ébreszd fel az összes csatlóst:\n\tMutasd meg az *Ő A DÉMON* lapkát. Mutass rá a démonra.\n\tMutasd meg az *ŐK A CSATLÓSAID* lapkát. Mutass rá a többi csatlósra."
+    },
+    {
+        "id": "demoninfo",
+        "name": "Démon információja",
+        "team": "demon",
+        "edition": "special",
+        "firstNightReminder": "Ha 7 vagy több játékos van, ébreszd fel a démont:\n\tMutasd meg az *ŐK A CSATLÓSAID* lapkát. Mutass rá az összes csatlósra.\n\tMutasd meg az *EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN* lapkát, és 3 jó karakter jelölőjét, amelyek nincsenek játékban."
+    },
+    {
         "id": "steward",
         "name": "Inas",
         "team": "townsfolk",

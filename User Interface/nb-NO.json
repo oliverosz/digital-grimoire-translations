@@ -338,6 +338,9 @@
       "name": "Navn",
       "version": "Versjon",
       "remove_from_favourites": "Fjern fra favoritter",
+      "tags": "Tagger",
+      "add_tag": "Legg til tagg",
+      "tag_placeholder": "Ny tagg...",
       "no_favourite_scripts": "Ingen favorittskript.",
       "saved_games": "Lagrede spill",
       "created": "Opprettet",
@@ -594,7 +597,7 @@
     "assign_role_button": "Tildel rolle",
     "choose_role": "Velg en rolle",
     "manual_assign": "Tildel manuelt",
-    "manual_assign_hint": "Gi et sete et navn og trykk Tildel for å sette den spilleren der (rollen trekkes fortsatt). Legg til en rolle også for å plassere det nå og hoppe over trekkingen.",
+    "manual_assign_hint": "Gi et sete et navn og forhåndstildel eventuelt en rolle, trykk deretter Tildel. Spilleren trekker fortsatt sitt eget kort — forhåndstildelingen angir kun hvilken rolle vedkommende vil få. Bruk Tildel alle gjenværende automatisk for å fylle alle seter og hoppe over trekkingen.",
     "status_to_draw": "Til trekking",
     "status_seated": "Plassert",
     "pre_assign_role": "Forhåndstildel rolle"

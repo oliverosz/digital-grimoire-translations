@@ -129,6 +129,9 @@
     },
     "about": {
       "title": "About Digital Grimoire",
+      "about_tab": "About",
+      "special_thanks": "Special Thanks",
+      "special_thanks_intro": "A heartfelt thank you to everyone who has helped test and shape the Digital Grimoire over the years:",
       "version": "Version",
       "disclaimer": "This project is not affiliated with The Pandemonium Institute. All roles & abilities etc. are the property of Steven Medway and The Pandemonium Institute.",
       "privacy_policy": "By using this website, you agree to our",
@@ -347,6 +350,9 @@
       "name": "Name",
       "version": "Version",
       "remove_from_favourites": "Remove from favourites",
+      "tags": "Tags",
+      "add_tag": "Add tag",
+      "tag_placeholder": "New tag...",
       "no_favourite_scripts": "No favourite scripts.",
       "saved_games": "Saved Games",
       "created": "Created",
@@ -593,7 +599,7 @@
     "assign_role_button": "Assign Role",
     "choose_role": "Choose a Role",
     "manual_assign": "Manual Assign",
-    "manual_assign_hint": "Give a seat a name and press Assign to seat that player (their role is still drawn). Add a role too to place it now and skip the draw.",
+    "manual_assign_hint": "Name a seat and optionally pre-assign its role, then press Assign. The player still draws their own token — pre-assigning only sets which role they'll get. Use Auto Assign All to fill every seat and skip the draw.",
     "status_to_draw": "To draw",
     "status_seated": "Seated",
     "pre_assign_role": "Pre-assign role"

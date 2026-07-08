@@ -338,6 +338,9 @@
       "name": "Nom",
       "version": "Version",
       "remove_from_favourites": "Retirer des favoris",
+      "tags": "Tags",
+      "add_tag": "Ajouter un tag",
+      "tag_placeholder": "Nouveau tag...",
       "no_favourite_scripts": "Aucun script favori.",
       "saved_games": "Parties sauvegardées",
       "created": "Créé le",
@@ -594,7 +597,7 @@
     "assign_role_button": "Attribuer le rôle",
     "choose_role": "Choisissez un rôle",
     "manual_assign": "Attribuer manuellement",
-    "manual_assign_hint": "Donnez un nom à une place et appuyez sur Attribuer pour y asseoir ce joueur (son rôle sera quand même tiré). Ajoutez aussi un rôle pour le placer maintenant et sauter le tirage.",
+    "manual_assign_hint": "Donnez un nom à une place et pré-attribuez éventuellement son rôle, puis appuyez sur Attribuer. Le joueur tire quand même son propre jeton — la pré-attribution indique seulement quel rôle il recevra. Utilisez Attribuer automatiquement tous les restants pour remplir toutes les places et sauter le tirage.",
     "status_to_draw": "À tirer",
     "status_seated": "Assis",
     "pre_assign_role": "Pré-attribuer un rôle"
