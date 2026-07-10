@@ -54,7 +54,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un rôle de Villageois en jeu parmi 2 joueurs.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "librarian",
@@ -71,7 +72,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un rôle de Marginal en jeu parmi 2 joueurs (ou qu'aucun Marginal n'est en jeu).",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "investigator",
@@ -88,7 +90,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un rôle de Sbire en jeu parmi 2 joueurs.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "chef",
@@ -102,7 +105,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez le nombre de paires de joueurs maléfiques.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "empath",
@@ -116,7 +120,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, vous apprenez combien de vos 2 voisins en vie sont maléfiques.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "fortuneteller",
@@ -132,7 +137,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez 2 joueurs et apprenez si un Démon est parmi eux. Un des joueurs bons vous apparaît comme un Démon.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "undertaker",
@@ -148,7 +154,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous apprenez quel rôle est mort par exécution dans la journée.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "monk",
@@ -164,7 +171,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur (sauf vous-même) : il est protégé du Démon cette nuit.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "ravenkeeper",
@@ -178,7 +186,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous mourez la nuit, vous êtes réveillée pour choisir un joueur et apprendre son rôle.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "virgin",
@@ -194,7 +203,8 @@
         ],
         "setup": false,
         "ability": "La première fois qu'un joueur vous nomme, il est exécuté immédiatement s'il s'agit d'un Villageois.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "slayer",
@@ -210,7 +220,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, dans la journée, choisissez publiquement un joueur : s'il est le Démon, il meurt.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "soldier",
@@ -224,7 +235,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Vous êtes protégé du Démon.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "mayor",
@@ -238,7 +250,8 @@
         "reminders": [],
         "setup": false,
         "ability": "S'il n'y a que 3 joueurs en vie et pas d'exécution, votre équipe gagne. Si vous mourez la nuit, un autre joueur pourrait mourir à votre place.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "butler",
@@ -254,7 +267,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur (sauf vous-même). Le lendemain, vous pouvez voter uniquement si ce joueur vote.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "drunk",
@@ -268,6 +282,7 @@
         "reminders": [],
         "setup": true,
         "ability": "Vous ne savez pas que vous êtes l'Ivrogne. Vous pensez que vous êtes un Villageois.",
+        "flavor": null,
         "special": [
             {
                 "type": "selection",
@@ -294,7 +309,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Vous pourriez apparaître comme maléfique et comme Sbire ou Démon, même morte.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "saint",
@@ -308,7 +324,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous mourez par exécution, votre équipe perd.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "poisoner",
@@ -324,7 +341,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur. Il est empoisonné cette nuit et le jour suivant.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "spy",
@@ -338,7 +356,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, vous voyez le Grimoire. Vous pourriez apparaître comme bonne et comme Villageois ou Marginal, même morte.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "scarletwoman",
@@ -354,7 +373,8 @@
         ],
         "setup": false,
         "ability": "S'il y a au moins 5 joueurs en vie et que le Démon meurt, vous devenez le Démon. (Les Voyageurs ne comptent pas.)",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "baron",
@@ -368,7 +388,8 @@
         "reminders": [],
         "setup": true,
         "ability": "Il y a deux Marginaux supplémentaires en jeu. *[+2 Marginaux]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "imp",
@@ -384,7 +405,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit *, choisissez un joueur : il meurt. Si vous vous tuez de cette façon, un Sbire devient le Diablotin.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "bureaucrat",
@@ -400,7 +422,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur (sauf vous-même) : son vote compte comme 3 votes le lendemain.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "thief",
@@ -416,7 +439,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur (sauf vous-même) : son vote compte en négatif le lendemain.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "gunslinger",
@@ -430,7 +454,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, après le décompte du 1er vote, vous pouvez choisir un joueur qui a voté : il meurt.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "scapegoat",
@@ -444,7 +469,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si un joueur de votre alignement est exécuté, vous pourriez être exécuté à sa place.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "beggar",
@@ -458,7 +484,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Vous devez utiliser un jeton de vote pour voter. Si un joueur mort vous donne le sien, vous apprenez son alignement. Vous êtes sobre et sain.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "grandmother",
@@ -475,7 +502,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un joueur bon et son rôle. Si le Démon tue ce joueur, vous mourez également.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "sailor",
@@ -491,7 +519,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur en vie : lui ou vous être ivre jusqu'au crépuscule. Vous ne pouvez pas mourir.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "chambermaid",
@@ -505,7 +534,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, choisissez 2 joueurs en vie (sauf vous-même) : vous apprenez combien d'entre eux se sont réveillés cette nuit à cause de leur capacité.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "exorcist",
@@ -521,7 +551,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur (différent de la nuit précédente) : si c'est le Démon, il apprend qui vous êtes puis ne se réveille pas cette nuit.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "innkeeper",
@@ -539,7 +570,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez 2 joueurs : ils ne peuvent pas mourir cette nuit, mais un d'entre eux est ivre jusqu'au crépuscule.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "gambler",
@@ -555,7 +587,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur et devinez son rôle. Si vous vous trompez, vous mourez.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "gossip",
@@ -571,7 +604,8 @@
         ],
         "setup": false,
         "ability": "Chaque jour, vous pouvez faire une annonce publiquement. Cette nuit, si elle était vraie, un joueur meurt.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "courtier",
@@ -590,7 +624,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit, choisissez un rôle : il est ivre pendant 3 nuits et 3 jours.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "professor",
@@ -607,7 +642,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit*, choisissez un joueur mort : si c'est un Villageois, il est ressuscité.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "minstrel",
@@ -623,7 +659,8 @@
         ],
         "setup": false,
         "ability": "Lorsqu'un Sbire meurt par exécution, tous les autres joueurs (sauf les Voyageurs) sont ivres jusqu'au crépuscule du lendemain.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "tealady",
@@ -640,7 +677,8 @@
         ],
         "setup": false,
         "ability": "Si vos deux voisins en vie sont bons, ils ne peuvent pas mourir.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "pacifist",
@@ -654,7 +692,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Les joueurs bons exécutés pourraient ne pas mourir.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "fool",
@@ -670,7 +709,8 @@
         ],
         "setup": false,
         "ability": "La première fois que vous mourez, vous ne mourez pas.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "tinker",
@@ -686,7 +726,8 @@
         ],
         "setup": false,
         "ability": "Vous pourriez mourir à tout moment.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "moonchild",
@@ -702,7 +743,8 @@
         ],
         "setup": false,
         "ability": "Lorsque vous apprenez que vous êtes morte, choisissez publiquement 1 joueur en vie. Cette nuit, si c'était un joueur bon, il meurt.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "goon",
@@ -718,7 +760,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, le premier joueur à vous choisir avec sa capacité est ivre jusqu'au crépuscule. Vous devenez de son alignement.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "lunatic",
@@ -736,7 +779,8 @@
         ],
         "setup": false,
         "ability": "Vous pensez que vous êtes un Démon. Le Démon sait qui vous êtes et qui vous choisissez la nuit.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "godfather",
@@ -753,7 +797,8 @@
         ],
         "setup": true,
         "ability": "Lors de votre première nuit, vous apprenez quels Marginaux sont en jeu. Si un Marginal meurt dans la journée, choisissez un joueur cette nuit : il meurt. *[-1 ou +1 Marginal]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "devilsadvocate",
@@ -769,7 +814,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur en vie (différent de la nuit précédente) : s'il est exécuté le lendemain, il ne meurt pas.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "assassin",
@@ -786,7 +832,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit*, choisissez un joueur : il meurt, même s'il ne peut normalement pas mourir.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "mastermind",
@@ -800,7 +847,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si le Démon meurt par exécution (mettant fin à la partie), vous jouez 1 jour de plus. Si un joueur est exécuté ce jour-là, son équipe perd.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "zombuul",
@@ -817,7 +865,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, si personne n'est mort dans la journée, choisissez un joueur : il meurt. La première fois que vous mourez, vous restez en vie, mais apparaissez comme mort.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "pukka",
@@ -835,7 +884,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur : il est empoisonné. Le joueur précédemment empoisonné meurt, puis devient sain.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "shabaloth",
@@ -853,7 +903,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez 2 joueurs : ils meurent. Un joueur mort que vous avez choisi lors de la nuit précédente pourrait être recraché.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "po",
@@ -872,7 +923,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous pouvez choisir un joueur : il meurt. Si votre dernier choix était « personne », choisissez 3 joueurs cette nuit.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "apprentice",
@@ -888,7 +940,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous gagnez une capacité de Villageois (si bon) ou une capacité de Sbire (si maléfique).",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "matron",
@@ -902,7 +955,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, vous pouvez choisir jusqu'à 3 groupes de 2 joueurs pour échanger de place. Les joueurs ne peuvent pas quitter leur chaise pour parler en privé.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "judge",
@@ -918,7 +972,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, si un autre joueur nomme quelqu'un, vous pouvez choisir de forcer le succès ou l'échec de l'exécution.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "bishop",
@@ -935,7 +990,8 @@
         ],
         "setup": false,
         "ability": "Seul le Conteur peut nommer des joueurs. Au moins 1 joueur d'alignement opposé doit être nommé chaque jour.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "voudon",
@@ -949,7 +1005,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Seuls vous et les morts pouvez voter. Ils n'ont pas besoin de jeton de vote pour cela. La majorité n'est pas requise.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "clockmaker",
@@ -963,7 +1020,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez à combien de places du Démon est assis son Sbire le plus proche.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "dreamer",
@@ -977,7 +1035,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur (sauf vous-même, et sauf un Voyageur) : vous apprenez 1 rôle bon et 1 rôle maléfique. L'un des deux est correct.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "snakecharmer",
@@ -993,7 +1052,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur en vie : si c'est un Démon, il échange de rôle et d'alignement avec vous, puis est empoisonné.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "mathematician",
@@ -1012,7 +1072,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, vous apprenez combien de joueurs ont vu leur capacité dysfonctionner (depuis l'aube) à cause de la capacité d'un autre rôle.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "flowergirl",
@@ -1029,7 +1090,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous apprenez si un Démon a voté dans la journée.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "towncrier",
@@ -1046,7 +1108,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous apprenez si un Sbire a nommé quelqu'un dans la journée.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "oracle",
@@ -1060,7 +1123,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit*, vous apprenez combien de joueurs morts sont maléfiques.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "savant",
@@ -1074,7 +1138,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, vous pouvez rendre visite au Conteur pour apprendre 2 informations en privé : 1 est vraie et 1 est fausse.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "seamstress",
@@ -1090,7 +1155,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit, choisissez 2 joueurs (sauf vous-même) : vous apprenez s'ils sont du même alignement.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "philosopher",
@@ -1104,6 +1170,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Une fois par partie, la nuit, choisissez un rôle bon : gagnez cette capacité. Si ce rôle est en jeu, il est ivre.",
+        "flavor": null,
         "special": [
             {
                 "type": "reveal",
@@ -1129,7 +1196,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, dans la journée, posez en privé une question fermée (oui/non) au Conteur.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "juggler",
@@ -1149,7 +1217,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre premier jour, devinez publiquement jusqu'à 5 rôles de joueurs. Cette nuit, vous apprenez combien étaient corrects.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "sage",
@@ -1163,7 +1232,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si le Démon vous tue, vous apprenez qu'il est parmi 2 joueurs.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "mutant",
@@ -1177,7 +1247,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous vous montrez « fou » d'être un Marginal, vous pourriez être exécuté.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "sweetheart",
@@ -1193,7 +1264,8 @@
         ],
         "setup": false,
         "ability": "Lorsque vous mourez, 1 joueur est désormais ivre.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "barber",
@@ -1209,7 +1281,8 @@
         ],
         "setup": false,
         "ability": "Si vous êtes mort dans la journée ou cette nuit, le Démon peut choisir 2 joueurs (mais pas un autre Démon) qui échangent alors leur rôle.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "klutz",
@@ -1223,7 +1296,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Lorsque vous apprenez que vous êtes mort, choisissez publiquement 1 joueur en vie. S'il est maléfique, votre équipe perd.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "eviltwin",
@@ -1239,7 +1313,8 @@
         ],
         "setup": false,
         "ability": "Vous et un joueur d'alignement opposé vous connaissez mutuellement. Si le joueur bon est exécuté, le Mal gagne. Le Bien ne peut pas gagner si vous restez tous les deux en vie.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "witch",
@@ -1255,7 +1330,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur : s'il nomme quelqu'un le lendemain, il meurt. S'il ne reste que 3 joueurs en vie, vous perdez cette capacité.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "cerenovus",
@@ -1271,7 +1347,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur et un rôle bon : le lendemain, il doit être «fou» d'être ce rôle. Sinon, il pourrait être exécuté.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "pithag",
@@ -1285,7 +1362,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur et le rôle qu'il devient (s'il n'est pas en jeu). Si un Démon naît de cette façon, les morts de cette nuit sont arbitraires.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "fanggu",
@@ -1302,7 +1380,8 @@
         ],
         "setup": true,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Le premier Marginal tué ainsi devient un Fang Gu maléfique et vous mourez à sa place. *[+1 Marginal]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "vigormortis",
@@ -1324,7 +1403,8 @@
         ],
         "setup": true,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Les Sbires que vous tuez gardent leur capacité et empoisonnent 1 Villageois voisin. *[-1 Marginal]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "nodashii",
@@ -1342,7 +1422,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Vos 2 Villageois voisins sont empoisonnés.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "vortox",
@@ -1358,7 +1439,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Les capacités des Villageois donnent de fausses informations. Chaque jour, si personne n'est exécuté, le Mal gagne.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "barista",
@@ -1377,7 +1459,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, jusqu'au crépuscule, 1) un joueur devient sobre, sain et obtient de vraies infos, ou 2) sa capacité fonctionne deux fois. Il apprend lequel des 2 effets il a reçu.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "harlot",
@@ -1394,7 +1477,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur en vie : s'il est d'accord, vous apprenez son rôle, mais vous pourriez mourir tous les deux.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "butcher",
@@ -1408,7 +1492,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, après la première exécution, vous pouvez à nouveau nommer un joueur.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "bonecollector",
@@ -1425,7 +1510,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit*, choisissez un joueur mort : il regagne sa capacité jusqu'au crépuscule.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "deviant",
@@ -1439,7 +1525,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous avez été drôle ce jour, vous ne pouvez pas mourir par exil.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "noble",
@@ -1457,7 +1544,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez 3 joueurs, dont 1 uniquement est maléfique.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "bountyhunter",
@@ -1473,7 +1561,8 @@
         ],
         "setup": true,
         "ability": "Lors de votre première nuit, vous apprenez 1 joueur maléfique. S'il meurt, vous apprenez un autre joueur maléfique cette nuit, et ainsi de suite. *[1 Villageois est maléfique]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "pixie",
@@ -1490,7 +1579,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un rôle de Villageois en jeu. Si vous étiez fou d'être ce rôle, gagnez sa capacité à sa mort.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "general",
@@ -1504,7 +1594,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, vous apprenez quel alignement est en train de gagner selon le Conteur : bon, maléfique, ou aucun.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "preacher",
@@ -1522,7 +1613,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur : si c'est un Sbire, il l'apprend. Tous les Sbires choisis n'ont aucune capacité.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "king",
@@ -1536,7 +1628,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, s'il y a au moins autant de morts que de vivants, vous apprenez 1 rôle en vie. Le Démon sait que vous êtes le Roi.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "balloonist",
@@ -1552,7 +1645,8 @@
         ],
         "setup": true,
         "ability": "Chaque nuit, vous apprenez un joueur d'un type de rôle différent de la nuit précédente. *[+0 ou +1 Marginal]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "cultleader",
@@ -1566,7 +1660,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, vous devenez de l'alignement d'un voisin en vie. Si tous les joueurs bons rejoignent votre secte, votre équipe gagne.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "lycanthrope",
@@ -1583,7 +1678,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur en vie. S'il est bon, il meurt et le Démon ne tue pas cette nuit. Un joueur bon apparaît comme maléfique.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "amnesiac",
@@ -1601,7 +1697,8 @@
         ],
         "setup": false,
         "ability": "Vous ne connaissez pas votre capacité. Chaque jour, devinez-la en privé : vous apprenez à quel point vous chauffez.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "nightwatchman",
@@ -1617,7 +1714,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit, choisissez un joueur : il apprend que vous êtes le Veilleur de nuit.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "engineer",
@@ -1633,7 +1731,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit, choisissez quels Sbires ou quel Démon est en jeu.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "fisherman",
@@ -1649,7 +1748,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, dans la journée, demandez conseil au Conteur pour aider votre équipe à gagner.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "huntsman",
@@ -1665,7 +1765,8 @@
         ],
         "setup": true,
         "ability": "Une fois par partie, la nuit, choisissez un joueur en vie : si c'est la Demoiselle, elle devient un Villageois pas en jeu. *[+ Demoiselle]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "alchemist",
@@ -1679,6 +1780,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Vous avez la capacité d'un Sbire. Lorsque vous l'utilisez, le Conteur peut vous demander de choisir différemment.",
+        "flavor": null,
         "special": [
             {
                 "type": "reveal",
@@ -1701,7 +1803,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous mourez la nuit, un joueur bon en vie devient une Fermière.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "magician",
@@ -1715,7 +1818,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Le Démon pense que vous êtes un Sbire. Les Sbires pensent que vous êtes un Démon.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "choirboy",
@@ -1729,7 +1833,8 @@
         "reminders": [],
         "setup": true,
         "ability": "Si le Démon tue le Roi, vous apprenez quel joueur est le Démon. *[+ Roi]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "poppygrower",
@@ -1745,7 +1850,8 @@
         ],
         "setup": false,
         "ability": "Sbires et Démons ne se connaissent pas. Si vous mourez, ils apprennent qui ils sont cette nuit.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "atheist",
@@ -1759,7 +1865,8 @@
         "reminders": [],
         "setup": true,
         "ability": "Le Conteur peut enfreindre les règles. S'il est exécuté, le Bien gagne, même si vous êtes mort. *[Aucun rôle maléfique]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "cannibal",
@@ -1776,7 +1883,8 @@
         ],
         "setup": false,
         "ability": "Vous avez la capacité du dernier mort exécuté. S'il est maléfique, vous êtes empoisonné jusqu'à ce qu'un joueur bon meure exécuté.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "snitch",
@@ -1790,7 +1898,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque Sbire reçoit 3 bluffs.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "acrobat",
@@ -1807,7 +1916,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur : s'il est ou devient ivre ou empoisonné cette nuit, vous mourez.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "puzzlemaster",
@@ -1824,7 +1934,8 @@
         ],
         "setup": false,
         "ability": "Un joueur est ivre, même si vous mourez. Si vous devinez qui c'est (1 essai), apprenez quel joueur est le Démon. (Si erreur, recevez une fausse info.)",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "heretic",
@@ -1838,7 +1949,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Quiconque gagne, perd, et quiconque perd, gagne, même si vous êtes mort.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "damsel",
@@ -1854,7 +1966,8 @@
         ],
         "setup": false,
         "ability": "Tous les Sbires savent qu'une Demoiselle est en jeu. Si un Sbire devine publiquement votre rôle (1 essai), votre équipe perd.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "golem",
@@ -1870,7 +1983,8 @@
         ],
         "setup": false,
         "ability": "Vous pouvez faire une seule nomination dans la partie. Quand vous le faites, si le nommé n'est pas le Démon, il meurt.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "politician",
@@ -1884,7 +1998,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous êtes le plus responsable de la défaite de votre équipe, changez d'alignement et gagnez (même mort).",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "widow",
@@ -1901,7 +2016,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, consultez le Grimoire et choisissez un joueur : il est empoisonné. 1 joueur bon sait qu'une Veuve est en jeu.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "fearmonger",
@@ -1917,7 +2033,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur : si vous le nommez et l'exécutez, son équipe perd. Tous les joueurs savent si vous choisissez un nouveau joueur.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "psychopath",
@@ -1931,7 +2048,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, avant les nominations, vous pouvez choisir publiquement un joueur : il meurt. Si exécuté, vous mourez uniquement si vous perdez au chifoumi.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "goblin",
@@ -1947,7 +2065,8 @@
         ],
         "setup": false,
         "ability": "Si vous affirmez publiquement être le Gobelin quand vous êtes nommé puis êtes exécuté ce jour-là, votre équipe gagne.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "mezepheles",
@@ -1964,7 +2083,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un mot secret. Le premier joueur bon qui dit ce mot devient maléfique cette nuit.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "marionette",
@@ -1978,6 +2098,7 @@
         "reminders": [],
         "setup": true,
         "ability": "Vous pensez que vous êtes un rôle bon. Le Démon sait qui vous êtes. *[Vous êtes voisin du Démon]*",
+        "flavor": null,
         "special": [
             {
                 "type": "selection",
@@ -2004,7 +2125,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous êtes exécuté, tous, sauf 3, meurent. Après un décompte de 10 à 0, le joueur le plus désigné par les autres meurt.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "lilmonsta",
@@ -2018,6 +2140,7 @@
         "reminders": [],
         "setup": true,
         "ability": "Chaque nuit, les Sbires choisissent qui garde le Timonstre et « est le Démon ». Chaque nuit*, un joueur pourrait mourir. *[+1 Sbire]*",
+        "flavor": null,
         "special": [
             {
                 "type": "selection",
@@ -2048,7 +2171,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Lors de votre première nuit, choisissez un joueur : il est empoisonné. Par la suite, vous mourez si et seulement si il est mort.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "alhadikhia",
@@ -2066,7 +2190,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous pouvez choisir 3 joueurs (le Conteur les annonce) : chacun choisit en secret la vie ou la mort, mais s'ils vivent tous, tous meurent.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "legion",
@@ -2083,7 +2208,8 @@
         ],
         "setup": true,
         "ability": "Chaque nuit*, un joueur pourrait mourir. Toute exécution échoue si seul le Mal a voté. Vous apparaissez aussi comme Sbire. *[La majorité des joueurs sont Légion]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "leviathan",
@@ -2104,7 +2230,8 @@
         ],
         "setup": false,
         "ability": "Si plus d'un joueur bon est exécuté, le Mal gagne. Tous les joueurs savent que vous êtes en jeu. Après le jour 5, le Mal gagne.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "riot",
@@ -2122,7 +2249,8 @@
         ],
         "setup": true,
         "ability": "Le jour 3, les Sbires deviennent Émeute et les nommés meurent mais nomment immédiatement, et obligatoirement, un joueur en vie.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "gangster",
@@ -2136,7 +2264,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Une fois par journée, vous pouvez choisir de tuer un voisin en vie, si votre autre voisin en vie est d'accord.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "organgrinder",
@@ -2153,7 +2282,8 @@
         ],
         "setup": false,
         "ability": "Les joueurs gardent les yeux fermés lors des votes et leur décompte est secret. Chaque nuit, choisissez si vous êtes ivre jusqu'au crépuscule.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "vizier",
@@ -2167,7 +2297,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Votre rôle est connu de tous. Vous ne pouvez pas mourir dans la journée. Si le Bien a voté, vous pouvez exécuter immédiatement.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "knight",
@@ -2184,7 +2315,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez 2 joueurs qui ne sont pas le Démon.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "steward",
@@ -2200,7 +2332,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez 1 joueur bon.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "highpriestess",
@@ -2214,7 +2347,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, apprenez à quel joueur vous devriez parler en priorité, selon le Conteur.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "harpy",
@@ -2231,7 +2365,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez 2 joueurs : le lendemain, le premier joueur est fou que le deuxième est maléfique, ou l'un des deux ou les deux pourraient mourir.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "plaguedoctor",
@@ -2247,7 +2382,8 @@
         ],
         "setup": false,
         "ability": "Lorsque vous mourez, le Conteur gagne une capacité de Sbire.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "shugenja",
@@ -2261,7 +2397,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez si le joueur maléfique le plus proche de vous l'est en sens horaire ou antihoraire. À distance égale, cette info est arbitraire.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "ojo",
@@ -2277,7 +2414,8 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un rôle : il meurt. S'il n'est pas en jeu, le Conteur choisit qui meurt.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "hatter",
@@ -2293,7 +2431,8 @@
         ],
         "setup": false,
         "ability": "Si vous êtes mort ce jour ou cette nuit, les Sbires et Démons peuvent choisir de nouveaux rôles de Sbire et Démon.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "kazali",
@@ -2309,7 +2448,8 @@
         ],
         "setup": true,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. *[Vous choisissez quels joueurs sont quels Sbires. -? +? Marginaux]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "villageidiot",
@@ -2325,7 +2465,8 @@
         ],
         "setup": true,
         "ability": "Chaque nuit, choisissez un joueur : vous apprenez son alignement. *[+0 ou +1 à +2 Idiots du village dont un ivre]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "yaggababble",
@@ -2343,7 +2484,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez une phrase secrète. Pour chaque fois que vous l'aurez dite publiquement en journée, un joueur pourrait mourir.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "summoner",
@@ -2361,7 +2503,8 @@
         ],
         "setup": true,
         "ability": "Recevez 3 bluffs. La troisième nuit, choisissez qui devient un Démon maléfique de votre choix. *[Aucun Démon]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "banshee",
@@ -2377,7 +2520,8 @@
         ],
         "setup": false,
         "ability": "Si le Démon vous tue, tous les joueurs l'apprennent. Dès lors, vous pouvez nommer deux fois par jour et voter deux fois par nomination.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "ogre",
@@ -2393,7 +2537,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, choisissez un joueur (sauf vous-même) : vous devenez de son alignement (sans le connaître) même ivre ou empoisonné.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "alsaahir",
@@ -2407,7 +2552,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, si vous devinez publiquement qui sont des Sbires et qui sont des Démons, le Bien gagne.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "zealot",
@@ -2421,7 +2567,8 @@
         "reminders": [],
         "setup": false,
         "ability": "S'il y a au moins 5 joueurs en vie, vous devez voter pour chaque nomination.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "lordoftyphon",
@@ -2437,7 +2584,8 @@
         ],
         "setup": true,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. *[Les maléfiques forment une ligne. Vous êtes au milieu. +1 Sbire. -? à +? Marginaux]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "boffin",
@@ -2451,7 +2599,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Le Démon (même ivre ou empoisonné) a la capacité d'un rôle bon pas en jeu. Vous savez tous les deux lequel.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "cacklejack",
@@ -2467,7 +2616,8 @@
         ],
         "setup": false,
         "ability": "Chaque jour, choisissez un joueur : un joueur différent change de rôle cette nuit.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "gnome",
@@ -2483,7 +2633,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, tous les joueurs apprennent un joueur de votre alignement. Vous pouvez choisir de tuer quiconque le nomme.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "xaan",
@@ -2502,7 +2653,8 @@
         ],
         "setup": true,
         "ability": "La nuit X, tous les Villageois sont empoisonnés jusqu'au crépuscule. *[X Marginaux]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "wizard",
@@ -2519,7 +2671,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, choisissez de faire un vœu. S'il est exaucé, vous pourriez en payer le prix et un indice à son sujet pourrait être donné.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "hermit",
@@ -2537,7 +2690,8 @@
         ],
         "setup": true,
         "ability": "Vous avez les capacités de tous les Marginaux. *[-0 ou -1 Marginal]*",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "princess",
@@ -2553,7 +2707,8 @@
         ],
         "setup": false,
         "ability": "Lors de votre premier jour, si vous avez nommé et exécuté un joueur, le Démon ne tue pas cette nuit.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "wraith",
@@ -2567,6 +2722,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Vous pouvez choisir d'ouvrir les yeux la nuit. Vous vous réveillez en même temps que les autres joueurs maléfiques.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
                 "type": "player",
@@ -2591,7 +2747,8 @@
         ],
         "setup": false,
         "ability": "Quelque chose de grave peut arriver à celui qui est le plus responsable de la mort d'un nouveau joueur.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "bootlegger",
@@ -2605,7 +2762,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Le script a des personnages ou règles personnalisés.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "tor",
@@ -2699,7 +2857,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Pendant les 2 premières minutes de chaque journée, les joueurs vétérans ne peuvent pas parler.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "deusexfiasco",
@@ -2715,7 +2874,8 @@
         ],
         "setup": true,
         "ability": "Une fois par partie, le Conteur va faire une « erreur », la corriger, et l'admettre publiquement.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "djinn",
@@ -2729,7 +2889,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Utilisez la règle spéciale du Djinn. Tous les joueurs savent ce que c'est.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "doomsayer",
@@ -2743,7 +2904,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Si 4 joueurs ou plus sont en vie, chaque joueur vivant peut décider publiquement (une fois par partie) qu'un joueur de son propre alignement meurt.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "duchess",
@@ -2761,7 +2923,8 @@
         ],
         "setup": false,
         "ability": "Chaque jour, 3 joueurs peuvent choisir de vous rendre visite. La nuit*, chaque visiteur apprend combien de visiteurs sont maléfiques, mais 1 reçoit de fausses informations.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "ferryman",
@@ -2775,7 +2938,8 @@
         "reminders": [],
         "setup": false,
         "ability": "On the final day, all dead players regain their vote token.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "fibbin",
@@ -2791,7 +2955,8 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, 1 joueur bon peut obtenir de fausses informations.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "fiddler",
@@ -2805,7 +2970,8 @@
         "reminders": [],
         "setup": false,
         "ability": "Une fois par partie, le Démon choisit secrètement un joueur adverse : tous les joueurs choisissent lequel de ces 2 joueurs gagne.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "gardener",
@@ -2819,7 +2985,8 @@
         "reminders": [],
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "hellslibrarian",
@@ -2835,7 +3002,8 @@
         ],
         "setup": false,
         "ability": "Quelque chose de grave peut arriver au joueur qui parle lorsque le conteur a demandé le silence.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "revolutionary",
@@ -2851,7 +3019,8 @@
         ],
         "setup": false,
         "ability": "2 joueurs voisins sont connus pour être du même alignement. Une fois par partie, l'un d'entre eux apparaîtra comme ayant l'alignement opposé",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "sentinel",
@@ -2865,7 +3034,8 @@
         "reminders": [],
         "setup": true,
         "ability": "Il peut y avoir 1 Marginal de plus ou de moins en jeu.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "spiritofivory",
@@ -2881,7 +3051,8 @@
         ],
         "setup": false,
         "ability": "Il ne peut pas y avoir plus d'un joueur maléfique supplémentaire.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "stormcatcher",
@@ -2897,7 +3068,8 @@
         ],
         "setup": false,
         "ability": "Nommez un rôle bon. S'il est en jeu, le joueur qui l'incarne ne peut mourir que par exécution, mais les joueurs malfaisants apprennent de qui il s'agit.",
-        "special": null
+        "flavor": null,
+        "special": ""
     },
     {
         "id": "toymaker",
@@ -2913,6 +3085,7 @@
         ],
         "setup": false,
         "ability": "Le démon peut choisir de ne pas attaquer et doit le faire au moins une fois par partie. Les mauvais joueurs obtiennent des informations de départ normales.",
-        "special": null
+        "flavor": null,
+        "special": ""
     }
 ]
