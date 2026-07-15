@@ -63,7 +63,12 @@
     "enabled": "Bekapcsolva",
     "disabled": "Kikapcsolva",
     "end_game": "Játék vége",
-    "resize": "Átméretez"
+    "resize": "Átméretez",
+    "account": "Fiók",
+    "size": "Méret",
+    "reminder": "Emlékeztető",
+    "faq": "GYIK",
+    "discord": "Discord"
   },
   "errors": {
     "translation_database_only": "Sajnáljuk. Jelenleg csak az adatbázisból betöltött szkriptek fordítása lehetséges."
@@ -71,8 +76,7 @@
   "status": {
     "poisoned": "Mérgezett",
     "drunk": "Részeg",
-    "dead": "Halott",
-    "died_tonight": "Ma halt meg"
+    "dead": "Halott"
   },
   "nav": {
     "brand": "Digitális Grimoár",
@@ -274,7 +278,6 @@
     },
     "nomination": {
       "select_target_title": "Kit gyanúsít meg?",
-      "history_title": "Korábbi gyanúsítások",
       "nominating": "{player} meggyanúsítja:",
       "already_nominated_warning": "{player} ma már gyanúsított.",
       "todays_nominations": "Mai gyanúsítások:",
@@ -284,8 +287,24 @@
       "votes": "{count} szavazat",
       "already_nominated_today": "Ma már gyanúsított",
       "all_players_nominated": "Ma már minden gyanúsítható játékost jelöltek.",
-      "no_nominations_today": "Ma nem történt gyanúsítás.",
       "clear_all_votes": "Szavazatok törlése"
+    },
+    "gameHistory": {
+      "history_title": "Játéktörténet",
+      "setup_title": "Előkészítés",
+      "player_died": "{name} meghalt",
+      "player_revived": "{name} feltámadt",
+      "reminder_applied": "{name} megkapta a(z) \"{reminder}\" emlékeztetőt",
+      "reminder_removed": "{name} elvesztette a(z) \"{reminder}\" emlékeztetőt",
+      "alignment_changed": "{name} most már {alignment}",
+      "roles_swapped": "{player1} és {player2} karaktert cserélt ({role1} ↔ {role2})",
+      "role_changed": "{name} karaktere megváltozott: {fromRole} → {toRole}",
+      "player_on_block": "{name} a vérpadra került",
+      "ghost_vote_spent": "{name} felhasználta a szellemszavazatát",
+      "game_result": "{team} nyer",
+      "phase_started": "{phase} {number} kezdődött",
+      "setup_started": "Előkészítés kezdődött",
+      "game_started": "Játék kezdődött"
     },
     "notes": {
       "title": "Jegyzetek",
@@ -366,8 +385,15 @@
       "pronouns": "Névmások",
       "save_friends": "Barátok mentése",
       "logout": "Kijelentkezés",
+      "preferences": "Beállítások",
+      "prefs_display": "Megjelenítés",
+      "prefs_player_info": "Játékos adatok",
+      "prefs_grimoire": "Grimoár",
+      "load_disabled_in_game": "Játék közben nem lehet betölteni",
       "delete_game_confirmation_title": "Mentett játék törlése",
-      "delete_game_confirmation_message": "Biztos, hogy törölni szeretnéd ezt: <strong>{name}</strong>? Ez a művelet nem visszavonható."
+      "delete_game_confirmation_message": "Biztos, hogy törölni szeretnéd ezt: <strong>{name}</strong>? Ez a művelet nem visszavonható.",
+      "login_sync_message": "Jelentkezz be, hogy szinkronizáld a kedvenc szkripteidet, a barátlistádat és a mentett játékaidat az összes eszközödön.",
+      "prefs_token_info": "Token információ"
     },
     "background": {
       "title": "Háttérkép váltása",
@@ -611,6 +637,8 @@
     "day_night": "Nappal/Éjszaka",
     "character_sheet_qr": "Karakterlap QR",
     "night_order_sheet_qr": "Éjszakai segédlet QR",
+    "mobile_session_qr": "Mobilos kiosztás QR",
+    "no_mobile_session": "Nincs mobilos kiosztási munkamenet",
     "grim": "Grim",
     "town": "Város",
     "town_name_placeholder": "Város neve",
@@ -626,6 +654,8 @@
     "reveal_separately": "Felfedés egyesével",
     "tap_to_reveal": "Koppints a tokenekre a felfedésükhöz",
     "reveal_all": "Mind felfedése",
+    "congratulations_prefix": "Gratulálunk a",
+    "congratulations_suffix": "csapatnak",
     "widget_dark_background": "Elemek sötét háttérrel",
     "edit_night_icons": "Éjszakai ikonok testreszabása...",
     "seat": "Szék"

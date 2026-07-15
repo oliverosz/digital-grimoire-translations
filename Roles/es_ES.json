@@ -1350,9 +1350,9 @@
         "otherNight": 41,
         "otherNightReminder": "El No Dashii señala a un jugador. Ese jugador muere.",
         "reminders": [
-            "Envenenado",
             "Muerto",
-            "Muerto"
+            "Envenenado",
+            "Envenenado"
         ],
         "setup": false,
         "ability": "Cada noche* elige 1 jugador: muere. Tus 2 vecinos Aldeanos están envenenados.",

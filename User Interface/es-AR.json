@@ -63,7 +63,12 @@
     "disabled": "Deshabilitado",
     "wiki": "Wiki",
     "end_game": "Terminar partida",
-    "resize": "Redimensionar"
+    "resize": "Redimensionar",
+    "account": "Cuenta",
+    "size": "Tamaño",
+    "reminder": "Recordatorio",
+    "faq": "FAQ",
+    "discord": "Discord"
   },
   "errors": {
     "translation_database_only": "Lo siento. Solamente los guiones cargados desde la base de datos se pueden traducir por ahora."
@@ -71,8 +76,7 @@
   "status": {
     "poisoned": "Envenenado",
     "drunk": "Borracho",
-    "dead": "Muerto",
-    "died_tonight": "Murió esta noche"
+    "dead": "Muerto"
   },
   "nav": {
     "brand": "Grimorio Digital",
@@ -271,7 +275,6 @@
     },
     "nomination": {
       "select_target_title": "Seleccioná al nominado",
-      "history_title": "Historial de nominaciones",
       "nominating": "{player} está nominando:",
       "already_nominated_warning": "{player} ya nominó hoy.",
       "todays_nominations": "Las nominaciones de hoy:",
@@ -281,8 +284,24 @@
       "votes": "{count} voto/s",
       "already_nominated_today": "Ya nominó hoy",
       "all_players_nominated": "Todos los jugadores disponibles ya fueron nominados hoy.",
-      "no_nominations_today": "Hoy no hubo nominaciones.",
       "clear_all_votes": "Limpiar todos los votos"
+    },
+    "gameHistory": {
+      "history_title": "Historial de la partida",
+      "setup_title": "Configuración",
+      "player_died": "{name} murió",
+      "player_revived": "{name} revivió",
+      "reminder_applied": "Recordatorio \"{reminder}\" aplicado a {name}",
+      "reminder_removed": "Recordatorio \"{reminder}\" eliminado de {name}",
+      "alignment_changed": "{name} ahora es {alignment}",
+      "roles_swapped": "{player1} y {player2} intercambiaron roles ({role1} ↔ {role2})",
+      "role_changed": "{name} cambió de {fromRole} a {toRole}",
+      "player_on_block": "{name} fue puesto en el patíbulo",
+      "ghost_vote_spent": "{name} usó su voto fantasma",
+      "game_result": "{team} gana",
+      "phase_started": "{phase} {number} empezó",
+      "setup_started": "La configuración empezó",
+      "game_started": "La partida empezó"
     },
     "notes": {
       "title": "Notas",
@@ -363,8 +382,15 @@
       "pronouns": "Pronombres",
       "save_friends": "Guardar amigos",
       "logout": "Cerrar sesión",
+      "preferences": "Preferencias",
+      "prefs_display": "Pantalla",
+      "prefs_player_info": "Info del jugador",
+      "prefs_grimoire": "Grimorio",
+      "load_disabled_in_game": "No se puede cargar durante una partida en curso",
       "delete_game_confirmation_title": "Borrar partida guardada",
-      "delete_game_confirmation_message": "¿Estás seguro que querés borrar <strong>{name}</strong>? Esta acción es irreversible."
+      "delete_game_confirmation_message": "¿Estás seguro que querés borrar <strong>{name}</strong>? Esta acción es irreversible.",
+      "login_sync_message": "Iniciá sesión para sincronizar tus guiones favoritos, lista de amigos y partidas guardadas en todos tus dispositivos.",
+      "prefs_token_info": "Info de tokens"
     },
     "background": {
       "title": "Editar fondo",
@@ -609,6 +635,8 @@
     "day_night": "Día/Noche",
     "character_sheet_qr": "QR de la hoja de personaje",
     "night_order_sheet_qr": "QR de la hoja de orden nocturno",
+    "mobile_session_qr": "QR de la repartija móvil",
+    "no_mobile_session": "No hay sesión de repartija móvil",
     "grim": "Grimorio",
     "town": "Pueblo",
     "town_name_placeholder": "Nombre del pueblo",
@@ -624,6 +652,8 @@
     "reveal_separately": "Revelar los roles de uno en uno",
     "tap_to_reveal": "Tocá las fichas para irlas revelando",
     "reveal_all": "Revelar todo",
+    "congratulations_prefix": "Felicitaciones al equipo",
+    "congratulations_suffix": "",
     "widget_dark_background": "Fondos oscuros de widgets",
     "edit_night_icons": "Editar iconos del orden nocturno...",
     "seat": "Asiento"

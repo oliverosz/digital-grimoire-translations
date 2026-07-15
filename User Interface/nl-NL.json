@@ -64,7 +64,12 @@
     "enabled": "Ingeschakeld",
     "disabled": "Uitgeschakeld",
     "end_game": "Spel beëindigen",
-    "resize": "Formaat aanpassen"
+    "resize": "Formaat aanpassen",
+    "account": "Account",
+    "size": "Grootte",
+    "reminder": "Herinnering",
+    "faq": "FAQ",
+    "discord": "Discord"
   },
   "errors": {
     "translation_database_only": "Sorry. Alleen scripts uit de database kunnen op dit moment worden vertaald."
@@ -72,8 +77,7 @@
   "status": {
     "poisoned": "Vergiftigd",
     "drunk": "Dronken",
-    "dead": "Dood",
-    "died_tonight": "Vannacht gestorven"
+    "dead": "Dood"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -272,7 +276,6 @@
     },
     "nomination": {
       "select_target_title": "Nominatiedoel selecteren",
-      "history_title": "Nominatiegeschiedenis",
       "nominating": "{player} nomineert:",
       "already_nominated_warning": "{player} heeft vandaag al genomineerd.",
       "todays_nominations": "Nominaties van vandaag:",
@@ -282,8 +285,24 @@
       "votes": "{count} stemmen",
       "already_nominated_today": "Vandaag al genomineerd",
       "all_players_nominated": "Alle in aanmerking komende spelers zijn vandaag al genomineerd.",
-      "no_nominations_today": "Er zijn vandaag geen nominaties gedaan.",
       "clear_all_votes": "Alle stemmen wissen"
+    },
+    "gameHistory": {
+      "history_title": "Spelgeschiedenis",
+      "setup_title": "Setup",
+      "player_died": "{name} is overleden",
+      "player_revived": "{name} is herleefd",
+      "reminder_applied": "\"{reminder}\"-herinnering toegepast op {name}",
+      "reminder_removed": "\"{reminder}\"-herinnering verwijderd van {name}",
+      "alignment_changed": "{name} is nu {alignment}",
+      "roles_swapped": "{player1} en {player2} hebben van rol gewisseld ({role1} ↔ {role2})",
+      "role_changed": "{name} veranderde van {fromRole} naar {toRole}",
+      "player_on_block": "{name} is op het blok gezet",
+      "ghost_vote_spent": "{name} heeft de geeststem gebruikt",
+      "game_result": "{team} wint",
+      "phase_started": "{phase} {number} gestart",
+      "setup_started": "Setup gestart",
+      "game_started": "Spel gestart"
     },
     "notes": {
       "title": "Notities",
@@ -364,8 +383,15 @@
       "pronouns": "Voornaamwoorden",
       "save_friends": "Vrienden opslaan",
       "logout": "Uitloggen",
+      "preferences": "Instellingen",
+      "prefs_display": "Weergave",
+      "prefs_player_info": "Spelerinfo",
+      "prefs_grimoire": "Grimoire",
+      "load_disabled_in_game": "Kan niet laden terwijl er een spel bezig is",
       "delete_game_confirmation_title": "Opgeslagen spel verwijderen",
-      "delete_game_confirmation_message": "Weet je zeker dat je <strong>{name}</strong> wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+      "delete_game_confirmation_message": "Weet je zeker dat je <strong>{name}</strong> wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "login_sync_message": "Log in om je favoriete scripts, vriendenlijst en opgeslagen spellen op al je apparaten te synchroniseren.",
+      "prefs_token_info": "Token-info"
     },
     "background": {
       "title": "Achtergrond bewerken",
@@ -610,6 +636,8 @@
     "day_night": "Dag/Nacht",
     "character_sheet_qr": "Personageblad QR",
     "night_order_sheet_qr": "Nachtvolgordeblad QR",
+    "mobile_session_qr": "Mobiele Distributie QR",
+    "no_mobile_session": "Geen mobiele distributiesessie",
     "grim": "Grimoire",
     "town": "Stad",
     "town_name_placeholder": "Stadsnaam",
@@ -625,6 +653,8 @@
     "reveal_separately": "Apart onthullen",
     "tap_to_reveal": "Tik op tokens om rollen te onthullen",
     "reveal_all": "Alles onthullen",
+    "congratulations_prefix": "Gefeliciteerd, team",
+    "congratulations_suffix": "",
     "widget_dark_background": "Donkere widget-achtergronden",
     "edit_night_icons": "Nachtvolgorde-iconen bewerken...",
     "seat": "Plaats"

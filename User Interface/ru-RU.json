@@ -63,7 +63,12 @@
     "disabled": "Отключено",
     "wiki": "Вики",
     "end_game": "Завершить игру",
-    "resize": "Изменить размер"
+    "resize": "Изменить размер",
+    "account": "Аккаунт",
+    "size": "Размер",
+    "reminder": "Напоминание",
+    "faq": "FAQ",
+    "discord": "Discord"
   },
   "errors": {
     "translation_database_only": "Извините. Перевод доступен только для сценариев, загруженных из базы данных."
@@ -71,8 +76,7 @@
   "status": {
     "poisoned": "Отравлен",
     "drunk": "Пьян",
-    "dead": "Мёртв",
-    "died_tonight": "Умер этой ночью"
+    "dead": "Мёртв"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -271,7 +275,6 @@
     },
     "nomination": {
       "select_target_title": "Выберите цель номинации",
-      "history_title": "История номинаций",
       "nominating": "{player} номинирует:",
       "already_nominated_warning": "{player} уже номинировал сегодня.",
       "todays_nominations": "Сегодняшние номинации:",
@@ -281,8 +284,24 @@
       "votes": "{count} голосов",
       "already_nominated_today": "Уже номинировался сегодня",
       "all_players_nominated": "Все доступные игроки уже номинированы сегодня.",
-      "no_nominations_today": "Сегодня не было номинаций.",
       "clear_all_votes": "Очистить голоса"
+    },
+    "gameHistory": {
+      "history_title": "История игры",
+      "setup_title": "Настройка",
+      "player_died": "{name} умер",
+      "player_revived": "{name} воскрес",
+      "reminder_applied": "Напоминание \"{reminder}\" применено к {name}",
+      "reminder_removed": "Напоминание \"{reminder}\" удалено у {name}",
+      "alignment_changed": "{name} теперь {alignment}",
+      "roles_swapped": "{player1} и {player2} поменялись ролями ({role1} ↔ {role2})",
+      "role_changed": "{name} сменил роль с {fromRole} на {toRole}",
+      "player_on_block": "{name} поставлен на плаху",
+      "ghost_vote_spent": "{name} использовал свой призрачный голос",
+      "game_result": "{team} побеждает",
+      "phase_started": "{phase} {number} — начало",
+      "setup_started": "Настройка началась",
+      "game_started": "Игра началась"
     },
     "notes": {
       "title": "Заметки",
@@ -363,8 +382,15 @@
       "pronouns": "Местоимения",
       "save_friends": "Сохранить список",
       "logout": "Выйти",
+      "preferences": "Настройки",
+      "prefs_display": "Отображение",
+      "prefs_player_info": "Данные игрока",
+      "prefs_grimoire": "Гримуар",
+      "load_disabled_in_game": "Загрузка недоступна во время активной игры",
       "delete_game_confirmation_title": "Удалить сохранение",
-      "delete_game_confirmation_message": "Вы уверены, что хотите удалить <strong>{name}</strong>? Это действие необратимо."
+      "delete_game_confirmation_message": "Вы уверены, что хотите удалить <strong>{name}</strong>? Это действие необратимо.",
+      "login_sync_message": "Войдите, чтобы синхронизировать свои избранные сценарии, список друзей и сохранённые игры на всех ваших устройствах.",
+      "prefs_token_info": "Информация о токенах"
     },
     "background": {
       "title": "Изменить фон",
@@ -609,6 +635,8 @@
     "day_night": "День/Ночь",
     "character_sheet_qr": "QR листа ролей",
     "night_order_sheet_qr": "QR порядка ночных способностей",
+    "mobile_session_qr": "QR мобильной раздачи",
+    "no_mobile_session": "Нет сессии мобильной раздачи",
     "grim": "Гримуар",
     "town": "Город",
     "town_name_placeholder": "Название города",
@@ -624,6 +652,8 @@
     "reveal_separately": "Открывать по отдельности",
     "tap_to_reveal": "Нажмите на жетоны, чтобы раскрыть роли",
     "reveal_all": "Открыть всё",
+    "congratulations_prefix": "Поздравляем команду",
+    "congratulations_suffix": "",
     "widget_dark_background": "Тёмный фон виджетов",
     "edit_night_icons": "Изменить иконки ночного порядка...",
     "seat": "Место"

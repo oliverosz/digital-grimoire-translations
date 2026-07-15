@@ -1332,9 +1332,9 @@
         "otherNight": 41,
         "otherNightReminder": "Il No Dashii indica un giocatore. Quel giocatore muore.",
         "reminders": [
-            "Avvelenato",
             "Morto",
-            "Morto"
+            "Avvelenato",
+            "Avvelenato"
         ],
         "setup": false,
         "ability": "Ogni notte*, scegli un giocatore: muore. I tuoi 2 vicini Cittadini sono avvelenati.",

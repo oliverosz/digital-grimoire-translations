@@ -63,7 +63,12 @@
     "disabled": "Деактивирано",
     "wiki": "Уики",
     "end_game": "Край на играта",
-    "resize": "Преоразмери"
+    "resize": "Преоразмери",
+    "account": "Акаунт",
+    "size": "Размер",
+    "reminder": "Напомняне",
+    "faq": "ЧЗВ",
+    "discord": "Discord"
   },
   "errors": {
     "translation_database_only": "Съжалявам. За момента само сценарии, заредени от базата данни могат да бъдат преведени."
@@ -71,8 +76,7 @@
   "status": {
     "poisoned": "Отровен",
     "drunk": "Пиян",
-    "dead": "Мъртъв",
-    "died_tonight": "Умрял тази нощ"
+    "dead": "Мъртъв"
   },
   "nav": {
     "brand": "Дигитален Гримоар",
@@ -271,7 +275,6 @@
     },
     "nomination": {
       "select_target_title": "Избери кого номинираш",
-      "history_title": "История на номинациите",
       "nominating": "{player} номинира:",
       "already_nominated_warning": "{player} вече е номинирал днес!",
       "todays_nominations": "Днешните номинации:",
@@ -281,8 +284,24 @@
       "votes": "{count} вота",
       "already_nominated_today": "Вече е номинирал днес",
       "all_players_nominated": "Всички възможни играчи вече бяха номинирани днес.",
-      "no_nominations_today": "Днес не е имало номинации.",
       "clear_all_votes": "Изстисти всички номинации"
+    },
+    "gameHistory": {
+      "history_title": "История на играта",
+      "setup_title": "Настройка",
+      "player_died": "{name} почина",
+      "player_revived": "{name} оживя",
+      "reminder_applied": "Напомняне \"{reminder}\" приложено на {name}",
+      "reminder_removed": "Напомняне \"{reminder}\" премахнато от {name}",
+      "alignment_changed": "{name} вече е {alignment}",
+      "roles_swapped": "{player1} и {player2} размениха роли ({role1} ↔ {role2})",
+      "role_changed": "{name} смени ролята от {fromRole} на {toRole}",
+      "player_on_block": "{name} е изправен на дръвника",
+      "ghost_vote_spent": "{name} използва своя призрачен глас",
+      "game_result": "{team} побеждава",
+      "phase_started": "{phase} {number} — начало",
+      "setup_started": "Настройката започна",
+      "game_started": "Играта започна"
     },
     "notes": {
       "title": "Бележки",
@@ -363,8 +382,15 @@
       "pronouns": "Местоимения",
       "save_friends": "Запази приятели",
       "logout": "Излез",
+      "preferences": "Настройки",
+      "prefs_display": "Показване",
+      "prefs_player_info": "Информация за играча",
+      "prefs_grimoire": "Гримоар",
+      "load_disabled_in_game": "Не може да се зареди по време на активна игра",
       "delete_game_confirmation_title": "Изтрий запазената игри",
-      "delete_game_confirmation_message": "Сигурен ли си, че искаш да изтриеш <strong>{name}</strong>? Това действие е необратимо."
+      "delete_game_confirmation_message": "Сигурен ли си, че искаш да изтриеш <strong>{name}</strong>? Това действие е необратимо.",
+      "login_sync_message": "Влезте, за да синхронизирате любимите си сценарии, списъка си с приятели и запазените игри на всички ваши устройства.",
+      "prefs_token_info": "Информация за токените"
     },
     "background": {
       "title": "Редактирай фона",
@@ -609,6 +635,8 @@
     "day_night": "Ден/Нощ",
     "character_sheet_qr": "QR Списък с персонажите",
     "night_order_sheet_qr": "QR Списък с ред на действията през нощта",
+    "mobile_session_qr": "QR на мобилното разпределяне",
+    "no_mobile_session": "Няма сесия за мобилно разпределяне",
     "grim": "Грим",
     "town": "Име",
     "town_name_placeholder": "Наименование на града",
@@ -624,6 +652,8 @@
     "reveal_separately": "Разкрий отделно",
     "tap_to_reveal": "Натисни върху токените, за да разкриеш ролята",
     "reveal_all": "Разкрий всичко",
+    "congratulations_prefix": "Поздравления за отбор",
+    "congratulations_suffix": "",
     "widget_dark_background": "Тъмен фон на уиджети",
     "edit_night_icons": "Редактирай иконите за нощния ред...",
     "seat": "Място"

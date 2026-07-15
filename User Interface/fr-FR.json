@@ -63,7 +63,12 @@
     "enabled": "Activé",
     "disabled": "Désactivé",
     "end_game": "Fin de partie",
-    "resize": "Redimensionner"
+    "resize": "Redimensionner",
+    "account": "Compte",
+    "size": "Taille",
+    "reminder": "Rappel",
+    "faq": "FAQ",
+    "discord": "Discord"
   },
   "nav": {
     "brand": "Grimoire Numérique",
@@ -262,7 +267,6 @@
     },
     "nomination": {
       "select_target_title": "Sélectionner la cible de la nomination",
-      "history_title": "Historique des nominations",
       "nominating": "{player} nomine :",
       "already_nominated_warning": "{player} a déjà nominé aujourd'hui.",
       "todays_nominations": "Nominations du jour :",
@@ -272,8 +276,24 @@
       "votes": "{count} votes",
       "already_nominated_today": "Déjà nominé aujourd'hui",
       "all_players_nominated": "Tous les joueurs éligibles ont déjà été nominés aujourd'hui.",
-      "no_nominations_today": "Aucune nomination n'a été faite aujourd'hui.",
       "clear_all_votes": "Effacer tous les votes"
+    },
+    "gameHistory": {
+      "history_title": "Historique de la partie",
+      "setup_title": "Configuration",
+      "player_died": "{name} est mort",
+      "player_revived": "{name} est ressuscité",
+      "reminder_applied": "Rappel \"{reminder}\" appliqué à {name}",
+      "reminder_removed": "Rappel \"{reminder}\" retiré de {name}",
+      "alignment_changed": "{name} est maintenant {alignment}",
+      "roles_swapped": "{player1} et {player2} ont échangé leurs rôles ({role1} ↔ {role2})",
+      "role_changed": "{name} est passé de {fromRole} à {toRole}",
+      "player_on_block": "{name} est placé sur le billot",
+      "ghost_vote_spent": "{name} a utilisé le vote fantôme",
+      "game_result": "{team} gagne",
+      "phase_started": "{phase} {number} a démarré",
+      "setup_started": "La configuration a démarré",
+      "game_started": "Le jeu a démarré"
     },
     "notes": {
       "title": "Notes",
@@ -354,8 +374,15 @@
       "pronouns": "Pronoms",
       "save_friends": "Enregistrer les amis",
       "logout": "Déconnexion",
+      "preferences": "Préférences",
+      "prefs_display": "Affichage",
+      "prefs_player_info": "Infos du Joueur",
+      "prefs_grimoire": "Grimoire",
+      "load_disabled_in_game": "Impossible de charger pendant une partie en cours",
       "delete_game_confirmation_title": "Supprimer la partie sauvegardée",
-      "delete_game_confirmation_message": "Êtes-vous sûr de vouloir supprimer <strong>{name}</strong> ? Cette action est irréversible."
+      "delete_game_confirmation_message": "Êtes-vous sûr de vouloir supprimer <strong>{name}</strong> ? Cette action est irréversible.",
+      "login_sync_message": "Connectez-vous pour synchroniser vos scripts favoris, votre liste d'amis et vos parties sauvegardées sur tous vos appareils.",
+      "prefs_token_info": "Infos des jetons"
     },
     "background": {
       "title": "Modifier l'arrière-plan",
@@ -402,8 +429,7 @@
   "status": {
     "poisoned": "Empoisonné",
     "drunk": "Ivre",
-    "dead": "Assassiné",
-    "died_tonight": "Mort cette nuit"
+    "dead": "Assassiné"
   },
   "roles": {
     "townsfolk": "Villageois",
@@ -609,6 +635,8 @@
     "day_night": "Jour/Nuit",
     "character_sheet_qr": "QR Feuille de rôles",
     "night_order_sheet_qr": "QR Feuille d'ordre de nuit",
+    "mobile_session_qr": "QR Distribution Mobile",
+    "no_mobile_session": "Aucune session de distribution mobile",
     "grim": "Grimoire",
     "town": "village",
     "town_name_placeholder": "Nom du village",
@@ -624,6 +652,8 @@
     "reveal_separately": "Révéler séparément",
     "tap_to_reveal": "Touchez les jetons pour révéler les rôles",
     "reveal_all": "Tout révéler",
+    "congratulations_prefix": "Félicitations à l'équipe",
+    "congratulations_suffix": "",
     "widget_dark_background": "Fonds sombres des widgets",
     "edit_night_icons": "Modifier les icônes de l'ordre de nuit...",
     "seat": "Place"

@@ -63,7 +63,12 @@
     "enabled": "Aktiviert",
     "disabled": "Deaktiviert",
     "end_game": "Spiel beenden",
-    "resize": "Größe ändern"
+    "resize": "Größe ändern",
+    "account": "Konto",
+    "size": "Größe",
+    "reminder": "Erinnerung",
+    "faq": "FAQ",
+    "discord": "Discord"
   },
   "errors": {
     "translation_database_only": "Entschuldigung. Nur Skripte aus der Datenbank können derzeit übersetzt werden."
@@ -71,8 +76,7 @@
   "status": {
     "poisoned": "Vergiftet",
     "drunk": "Betrunken",
-    "dead": "Tot",
-    "died_tonight": "Heute Nacht gestorben"
+    "dead": "Tot"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -271,7 +275,6 @@
     },
     "nomination": {
       "select_target_title": "Nominierungsziel auswählen",
-      "history_title": "Nominierungsverlauf",
       "nominating": "{player} nominiert:",
       "already_nominated_warning": "{player} hat heute bereits nominiert.",
       "todays_nominations": "Heutige Nominierungen:",
@@ -281,8 +284,24 @@
       "votes": "{count} Stimmen",
       "already_nominated_today": "Heute bereits nominiert",
       "all_players_nominated": "Alle wählbaren Spieler wurden heute bereits nominiert.",
-      "no_nominations_today": "Heute wurden keine Nominierungen vorgenommen.",
       "clear_all_votes": "Alle Stimmen löschen"
+    },
+    "gameHistory": {
+      "history_title": "Spielverlauf",
+      "setup_title": "Setup",
+      "player_died": "{name} ist gestorben",
+      "player_revived": "{name} ist wiederauferstanden",
+      "reminder_applied": "\"{reminder}\"-Erinnerung bei {name} angewendet",
+      "reminder_removed": "\"{reminder}\"-Erinnerung bei {name} entfernt",
+      "alignment_changed": "{name} ist jetzt {alignment}",
+      "roles_swapped": "{player1} und {player2} haben die Rollen getauscht ({role1} ↔ {role2})",
+      "role_changed": "{name} wechselte von {fromRole} zu {toRole}",
+      "player_on_block": "{name} wurde auf den Richtblock gestellt",
+      "ghost_vote_spent": "{name} hat die Geisterstimme genutzt",
+      "game_result": "{team} gewinnt",
+      "phase_started": "{phase} {number} gestartet",
+      "setup_started": "Setup gestartet",
+      "game_started": "Spiel gestartet"
     },
     "notes": {
       "title": "Notizen",
@@ -363,8 +382,15 @@
       "pronouns": "Pronomen",
       "save_friends": "Freunde speichern",
       "logout": "Abmelden",
+      "preferences": "Einstellungen",
+      "prefs_display": "Anzeige",
+      "prefs_player_info": "Spielerinfo",
+      "prefs_grimoire": "Grimoire",
+      "load_disabled_in_game": "Laden während einer laufenden Partie nicht möglich",
       "delete_game_confirmation_title": "Gespeichertes Spiel löschen",
-      "delete_game_confirmation_message": "Sind Sie sicher, dass Sie <strong>{name}</strong> löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+      "delete_game_confirmation_message": "Sind Sie sicher, dass Sie <strong>{name}</strong> löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "login_sync_message": "Melde dich an, um deine favorisierten Skripte, deine Freundesliste und deine gespeicherten Spiele auf all deinen Geräten zu synchronisieren.",
+      "prefs_token_info": "Token-Info"
     },
     "background": {
       "title": "Hintergrund bearbeiten",
@@ -609,6 +635,8 @@
     "day_night": "Tag/Nacht",
     "character_sheet_qr": "Charakterblatt QR",
     "night_order_sheet_qr": "Nachtreihenfolge-Blatt QR",
+    "mobile_session_qr": "Mobile Verteilung QR",
+    "no_mobile_session": "Keine mobile Verteilungssitzung",
     "grim": "Grimoire",
     "town": "Stadt",
     "town_name_placeholder": "Stadtname",
@@ -624,6 +652,8 @@
     "reveal_separately": "Einzeln enthüllen",
     "tap_to_reveal": "Tippen Sie auf Token, um Rollen zu enthüllen",
     "reveal_all": "Alle enthüllen",
+    "congratulations_prefix": "Herzlichen Glückwunsch an Team",
+    "congratulations_suffix": "",
     "widget_dark_background": "Dunkle Widget-Hintergründe",
     "edit_night_icons": "Nachtordnung-Symbole bearbeiten...",
     "seat": "Platz"

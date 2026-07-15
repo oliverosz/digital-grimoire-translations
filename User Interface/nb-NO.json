@@ -63,7 +63,12 @@
     "disabled": "Deaktivert",
     "wiki": "Wiki",
     "end_game": "Avslutt spill",
-    "resize": "Endre størrelse"
+    "resize": "Endre størrelse",
+    "account": "Konto",
+    "size": "Størrelse",
+    "reminder": "Påminnelse",
+    "faq": "FAQ",
+    "discord": "Discord"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -262,7 +267,6 @@
     },
     "nomination": {
       "select_target_title": "Velg nominasjonsmål",
-      "history_title": "Nominasjonshistorikk",
       "nominating": "{player} nominerer:",
       "already_nominated_warning": "{player} har allerede nominert i dag.",
       "todays_nominations": "Dagens nominasjoner:",
@@ -272,8 +276,24 @@
       "votes": "{count} stemmer",
       "already_nominated_today": "Allerede nominert i dag",
       "all_players_nominated": "Alle kvalifiserte spillere er allerede nominert i dag.",
-      "no_nominations_today": "Ingen nominasjoner er gjort i dag.",
       "clear_all_votes": "Fjern alle stemmer"
+    },
+    "gameHistory": {
+      "history_title": "Spillhistorikk",
+      "setup_title": "Oppsett",
+      "player_died": "{name} døde",
+      "player_revived": "{name} gjenoppsto",
+      "reminder_applied": "\"{reminder}\"-påminnelse brukt på {name}",
+      "reminder_removed": "\"{reminder}\"-påminnelse fjernet fra {name}",
+      "alignment_changed": "{name} er nå {alignment}",
+      "roles_swapped": "{player1} og {player2} byttet roller ({role1} ↔ {role2})",
+      "role_changed": "{name} byttet fra {fromRole} til {toRole}",
+      "player_on_block": "{name} er satt på blokken",
+      "ghost_vote_spent": "{name} brukte spøkelsesstemmen sin",
+      "game_result": "{team} vinner",
+      "phase_started": "{phase} {number} startet",
+      "setup_started": "Oppsett startet",
+      "game_started": "Spill startet"
     },
     "notes": {
       "title": "Notater",
@@ -354,8 +374,15 @@
       "pronouns": "Pronomen",
       "save_friends": "Lagre venner",
       "logout": "Logg ut",
+      "preferences": "Innstillinger",
+      "prefs_display": "Visning",
+      "prefs_player_info": "Spillerinfo",
+      "prefs_grimoire": "Grimoire",
+      "load_disabled_in_game": "Kan ikke laste inn mens et spill pågår",
       "delete_game_confirmation_title": "Slett lagret spill",
-      "delete_game_confirmation_message": "Er du sikker på at du vil slette <strong>{name}</strong>? Denne handlingen kan ikke angres."
+      "delete_game_confirmation_message": "Er du sikker på at du vil slette <strong>{name}</strong>? Denne handlingen kan ikke angres.",
+      "login_sync_message": "Logg inn for å synkronisere favorittskriptene dine, vennelisten din og lagrede spill på tvers av alle enhetene dine.",
+      "prefs_token_info": "Token-info"
     },
     "background": {
       "title": "Rediger bakgrunn",
@@ -402,8 +429,7 @@
   "status": {
     "poisoned": "Forgiftet",
     "drunk": "Full",
-    "dead": "Død",
-    "died_tonight": "Døde i natt"
+    "dead": "Død"
   },
   "roles": {
     "townsfolk": "Byfolk",
@@ -609,6 +635,8 @@
     "day_night": "Dag/natt",
     "character_sheet_qr": "Karakteroversikt QR",
     "night_order_sheet_qr": "Oversikt over Nattens Rekkefølge QR",
+    "mobile_session_qr": "Mobil distribusjon QR",
+    "no_mobile_session": "Ingen mobil distribusjonsøkt",
     "grim": "Grimoire",
     "town": "By",
     "town_name_placeholder": "Bynavn",
@@ -624,6 +652,8 @@
     "reveal_separately": "Avslør separat",
     "tap_to_reveal": "Trykk på brikker for å avsløre roller",
     "reveal_all": "Avslør alle",
+    "congratulations_prefix": "Gratulerer til lag",
+    "congratulations_suffix": "",
     "widget_dark_background": "Mørk widget-bakgrunn",
     "edit_night_icons": "Rediger nattrekkefølge-ikoner...",
     "seat": "Sete"

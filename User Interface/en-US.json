@@ -63,7 +63,12 @@
     "enabled": "Enabled",
     "disabled": "Disabled",
     "end_game": "End Game",
-    "resize": "Resize"
+    "resize": "Resize",
+    "account": "Account",
+    "size": "Size",
+    "reminder": "Reminder",
+    "faq": "FAQ",
+    "discord": "Discord"
   },
   "errors": {
     "translation_database_only": "Sorry. Only scripts loaded from the database can be translated at this time."
@@ -71,8 +76,7 @@
   "status": {
     "poisoned": "Poisoned",
     "drunk": "Drunk",
-    "dead": "Dead",
-    "died_tonight": "Died Tonight"
+    "dead": "Dead"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -274,7 +278,6 @@
     },
     "nomination": {
       "select_target_title": "Select Nomination Target",
-      "history_title": "Nomination History",
       "nominating": "{player} is nominating:",
       "already_nominated_warning": "{player} has already nominated today.",
       "todays_nominations": "Today's Nominations:",
@@ -284,8 +287,24 @@
       "votes": "{count} votes",
       "already_nominated_today": "Already nominated today",
       "all_players_nominated": "All eligible players have already been nominated today.",
-      "no_nominations_today": "No nominations have been made today.",
       "clear_all_votes": "Clear All Votes"
+    },
+    "gameHistory": {
+      "history_title": "Game History",
+      "setup_title": "Setup",
+      "player_died": "{name} Died",
+      "player_revived": "{name} Revived",
+      "reminder_applied": "\"{reminder}\" reminder applied to {name}",
+      "reminder_removed": "\"{reminder}\" reminder removed from {name}",
+      "alignment_changed": "{name} is now {alignment}",
+      "roles_swapped": "{player1} and {player2} swapped roles ({role1} ↔ {role2})",
+      "role_changed": "{name} changed from {fromRole} to {toRole}",
+      "player_on_block": "{name} placed on the block",
+      "ghost_vote_spent": "{name} spent their ghost vote",
+      "game_result": "{team} wins",
+      "phase_started": "{phase} {number} Started",
+      "setup_started": "Setup started",
+      "game_started": "Game started"
     },
     "notes": {
       "title": "Notes",
@@ -366,8 +385,15 @@
       "pronouns": "Pronouns",
       "save_friends": "Save Friends",
       "logout": "Logout",
+      "preferences": "Preferences",
+      "prefs_display": "Display",
+      "prefs_player_info": "Player Info",
+      "prefs_grimoire": "Grimoire",
+      "load_disabled_in_game": "Can't load while a game is in progress",
       "delete_game_confirmation_title": "Delete Saved Game",
-      "delete_game_confirmation_message": "Are you sure you want to delete <strong>{name}</strong>? This action cannot be undone."
+      "delete_game_confirmation_message": "Are you sure you want to delete <strong>{name}</strong>? This action cannot be undone.",
+      "login_sync_message": "Log in to sync your favourite scripts, friends list, and saved games across all your devices.",
+      "prefs_token_info": "Token Info"
     },
     "background": {
       "title": "Edit Background",
@@ -611,6 +637,8 @@
     "day_night": "Day/Night",
     "character_sheet_qr": "Character Sheet QR",
     "night_order_sheet_qr": "Night-Order Sheet QR",
+    "mobile_session_qr": "Mobile Distribution QR",
+    "no_mobile_session": "No Mobile Distribution Session",
     "grim": "Grim",
     "town": "Town",
     "town_name_placeholder": "Town Name",
@@ -626,6 +654,8 @@
     "reveal_separately": "Reveal Separately",
     "tap_to_reveal": "Tap tokens to reveal roles",
     "reveal_all": "Reveal All",
+    "congratulations_prefix": "Congratulations to the",
+    "congratulations_suffix": "team",
     "widget_dark_background": "Dark Widget Backgrounds",
     "edit_night_icons": "Edit Night Order Icons...",
     "seat": "Seat"

@@ -1336,9 +1336,9 @@
         "otherNight": 41,
         "otherNightReminder": "No Dashii wskazuje gracza. Ten gracz umiera.",
         "reminders": [
-            "Zatruty",
             "Ginie",
-            "Ginie"
+            "Zatruty",
+            "Zatruty"
         ],
         "setup": false,
         "ability": "Każdej nocy* wybierz gracza, który umiera. Dwójka sąsiadujących z Tobą Mieszczan jest zatruta.",
