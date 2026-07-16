@@ -843,9 +843,9 @@
         "otherNight": 38,
         "otherNightReminder": "Één van de spelers die de Shabaloth de vorige nacht heeft gekozen, kan herrijzen. De Shabaloth wijst naar twee spelers. Die spelers sterven.",
         "reminders": [
-            "Geen vaardigheid",
             "Dood",
-            "Dood"
+            "Dood",
+            "Levend"
         ],
         "setup": false,
         "ability": "Kies elke nacht* 2 spelers: zij sterven. 1 dode speler die je de vorige nacht hebt gekozen, zou kunnen herrijzen.",

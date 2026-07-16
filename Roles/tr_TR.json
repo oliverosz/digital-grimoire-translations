@@ -529,9 +529,9 @@
         "otherNight": 14,
         "otherNightReminder": "Önceki korunan ve sarhoş oyuncular bu işaretleri kaybeder. Hancı iki oyuncuyu işaret eder. Bu oyuncular korunur. Biri sarhoştur.",
         "reminders": [
-            "Sarhoş",
-            "Sarhoş",
-            "Korumalı"
+            "Korumalı",
+            "Korumalı",
+            "Sarhoş"
         ],
         "setup": false,
         "ability": "Her gece*, 2 oyuncu seçin: bu gece ölemezler, ancak biri gün batımına kadar sarhoş olur.",
@@ -825,9 +825,9 @@
         "otherNight": 37,
         "otherNightReminder": "Pukka bir oyuncuyu işaret eder. O oyuncu zehirlenir. Önceki zehirlenen oyuncu ölür.",
         "reminders": [
-            "Ölü",
-            "Ölü",
-            "Zehirlendi"
+            "Zehirlendi",
+            "Zehirlendi",
+            "Ölü"
         ],
         "setup": false,
         "ability": "Her gece bir oyuncu seçin: o zehirlenir. Önceki zehirlenen oyuncu ölür ve sonra iyileşir.",
@@ -843,9 +843,9 @@
         "otherNight": 38,
         "otherNightReminder": "Shabaloth'un önceki gece seçtiği bir oyuncu dirilebilir. Shabaloth iki oyuncuyu işaret eder. Bu oyuncular ölür.",
         "reminders": [
-            "Hayatta",
-            "Hayatta",
-            "Ölü"
+            "Ölü",
+            "Ölü",
+            "Hayatta"
         ],
         "setup": false,
         "ability": "Her gece*, 2 oyuncu seçin: onlar ölür. Dün gece seçtiğiniz ölü bir oyuncu dirilebilir.",
@@ -861,10 +861,10 @@
         "otherNight": 39,
         "otherNightReminder": "Eğer Po önceki gece kimseyi seçmediyse: Po üç oyuncuyu işaret eder. Aksi takdirde: Po ya 'hayır' işareti gösterir ya da bir oyuncuyu işaret eder. Seçilen oyuncular ölür.",
         "reminders": [
-            "3 Saldırı",
-            "3 Saldırı",
-            "3 Saldırı",
-            "Ölü"
+            "Ölü",
+            "Ölü",
+            "Ölü",
+            "3 Saldırı"
         ],
         "setup": false,
         "ability": "Hikaye Anlatıcısı Yeteneği",
@@ -2761,9 +2761,9 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Yanlış Bilgi",
-            "Yanlış Bilgi",
-            "Ziyaretçi"
+            "Ziyaretçi",
+            "Ziyaretçi",
+            "Yanlış Bilgi"
         ],
         "setup": false,
         "ability": "Her gün, 3 oyuncu sizi ziyaret etmeyi seçebilir. Gece*, her ziyaretçi kaç ziyaretçinin kötü olduğunu öğrenir, ancak biri yanlış bilgi alır.",

@@ -529,9 +529,9 @@
         "otherNight": 14,
         "otherNightReminder": "O Estalajadeiro escolhe 2 jogadores. :reminder: :reminder: :reminder:",
         "reminders": [
-            "Bêbado",
-            "Bêbado",
-            "Protegido"
+            "Protegido",
+            "Protegido",
+            "Bêbado"
         ],
         "setup": false,
         "ability": "A cada noite*, escolha 2 jogadores: eles não podem morrer esta noite, mas um deles fica bêbado até o anoitecer.",
@@ -861,10 +861,10 @@
         "otherNight": 39,
         "otherNightReminder": "A Pô pode escolher um jogador OU 3 jogadores se escolheu 'ninguém' na última noite. :reminder: ou :reminder: :reminder: reminder:",
         "reminders": [
-            "3 Ataques",
-            "3 Ataques",
-            "3 Ataques",
-            "Morto"
+            "Morto",
+            "Morto",
+            "Morto",
+            "3 Ataques"
         ],
         "setup": false,
         "ability": "A cada noite*, você pode escolher um jogador: ele morre. Se a sua última escolha foi 'ninguém', escolha 3 jogadores esta noite.",
@@ -1316,13 +1316,13 @@
         "otherNight": 44,
         "otherNightReminder": "O Vigormortis escolhe um jogador. :reminder: Se for um Lacaio envenene um vizinho Cidadão. :reminder: :reminder:",
         "reminders": [
+            "Morto",
+            "Tem Habilidade",
+            "Tem Habilidade",
+            "Tem Habilidade",
             "Envenenado",
-            "Morto",
-            "Morto",
-            "Morto",
-            "Tem Habilidade",
-            "Tem Habilidade",
-            "Tem Habilidade"
+            "Envenenado",
+            "Envenenado"
         ],
         "setup": true,
         "ability": "A cada noite*, você escolhe um jogador: ele morre. Lacaios que você mata mantêm suas habilidades e envenenam um vizinho Cidadão. [-1 Forasteiro].",
@@ -2761,9 +2761,9 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Informação Falsa",
-            "Informação Falsa",
-            "Visitante"
+            "Visitante",
+            "Visitante",
+            "Informação Falsa"
         ],
         "setup": false,
         "ability": "A cada dia, 3 jogadores podem escolher visitar o Narrador. À noite*, cada visitante aprende quantos dos visitantes são do mal, mas um deles recebe informações falsas.",

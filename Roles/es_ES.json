@@ -547,9 +547,9 @@
         "otherNight": 14,
         "otherNightReminder": "Los jugadores de la noche anterior pierden sus marcadores (protegido, borracho). El Posadero señala a dos jugadores. Esos jugadores están protegidos. Uno está borracho.",
         "reminders": [
-            "Borracho",
-            "Borracho",
-            "Protegido"
+            "Protegido",
+            "Protegido",
+            "Borracho"
         ],
         "setup": false,
         "ability": "Cada noche* elige 2 jugadores: no pueden morir esta noche, pero 1 está borracho hasta el crepúsculo.",
@@ -879,10 +879,10 @@
         "otherNight": 39,
         "otherNightReminder": "Si el Po no eligió a nadie la noche anterior: el Po señala a 3 jugadores. De lo contrario: el Po niega con la cabeza o señala a un jugador. Los jugadores señalados mueren.",
         "reminders": [
-            "3 ataques",
-            "3 ataques",
-            "3 ataques",
-            "Muerto"
+            "Muerto",
+            "Muerto",
+            "Muerto",
+            "3 ataques"
         ],
         "setup": false,
         "ability": "Cada noche* puedes elegir 1 jugador: muere. Si tu última elección fue no elegir a nadie, elige a 3 jugadores esta noche.",
@@ -1331,13 +1331,13 @@
         "otherNight": 44,
         "otherNightReminder": "El Vigormortis señala a un jugador. Ese jugador muere. Si se trata de un esbirro, mantiene su habilidad y uno de sus vecinos Aldeanos será envenenado.",
         "reminders": [
+            "Muerto",
+            "Con habilidad",
+            "Con habilidad",
             "Con habilidad",
             "Envenenado",
             "Envenenado",
-            "Envenenado",
-            "Muerto",
-            "Muerto",
-            "Muerto"
+            "Envenenado"
         ],
         "setup": true,
         "ability": "Cada noche* elige 1 jugador: muere. Los Esbirros que mates mantienen su habilidad y 1 Aldeano vecino suyo está envenenado. [-1 Forastero]",
@@ -1387,8 +1387,8 @@
         "otherNight": 1,
         "otherNightReminder": "Elige a un jugador, despiértalo y dile qué poder del Barista le está afectando. Trátalo según el poder (sobrio/sano/información correcta o activa su habilidad dos veces).",
         "reminders": [
-            "Habilidad doble",
             "Sobrio y Sano",
+            "Habilidad doble",
             "?",
             "?"
         ],
@@ -2822,9 +2822,9 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Información falsa",
-            "Información falsa",
-            "visitante"
+            "visitante",
+            "visitante",
+            "Información falsa"
         ],
         "setup": false,
         "ability": "Cada día, 3 jugadores pueden visitar al Narrador. Por la noche* cada visitante sabe cuántos son malos, pero 1 recibe información falsa.",

@@ -510,6 +510,7 @@
     "no_script_loaded": "No script loaded",
     "download_only_database": "Download only available for database scripts",
     "download_script_title": "Download {scriptName}",
+    "download_pdf_title": "Download PDF for {scriptName}",
     "or_load_own_script": "or load your own script",
     "botc_scripts_available": "All scripts from botcscripts.com available",
     "from_url": "From URL",

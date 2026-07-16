@@ -861,10 +861,10 @@
         "otherNight": 39,
         "otherNightReminder": "Se il Po non ha scelto nessuno l'occasione precedente: il Po indica 3 giocatori. Altrimenti, il Po può fare segno di \"No\" con la testa, o scegliere un giocatore. Quel giocatore muore.",
         "reminders": [
-            "3 attacchi",
-            "3 attacchi",
-            "3 attacchi",
-            "Morto"
+            "Morto",
+            "Morto",
+            "Morto",
+            "3 attacchi"
         ],
         "setup": false,
         "ability": "Ogni notte*, puoi scegliere un giocatore: muore. Se l'ultima volta non hai scelto nessuno, scegli 3 giocatori.",
@@ -1313,13 +1313,13 @@
         "otherNight": 44,
         "otherNightReminder": "Il Vigormortis indica un giocatore. Quel giocatore more. Se è un Seguace, mantiene la sua abilità e uno dei suoi vicini di posto Cittadini è avvelenato.",
         "reminders": [
+            "Morto",
+            "Ha abilità",
+            "Ha abilità",
+            "Ha abilità",
             "Avvelenato",
-            "Ha abilità",
-            "Ha abilità",
-            "Ha abilità",
-            "Morto",
-            "Morto",
-            "Morto"
+            "Avvelenato",
+            "Avvelenato"
         ],
         "setup": true,
         "ability": "Ogni notte*, scegli un giocatore: muore. I Seguaci che uccidi mantengono le loro abilità e avvelenano un Cittadino a loro vicino. [-1 Emarginato]",
@@ -2755,9 +2755,9 @@
         "otherNight": 1,
         "otherNightReminder": "Sceglia i gicatori segnati con il promemoria Visitatore o \"informazioni sbagliate\" uno alla volta. Mostra loro il token della Duchesa, poi un numero con le dita (0, 1, 2, ecc.) uguale al numero di giocatori Malvagi segnati con il promemoria indicati  come \"Visitatore\" o se stai svegliando il giovatore, ",
         "reminders": [
-            "Informazioni sbagliate",
-            "Informazioni sbagliate",
-            "Visitatore"
+            "Visitatore",
+            "Visitatore",
+            "Informazioni sbagliate"
         ],
         "setup": false,
         "ability": "Ogni giorno, 3 giocatori possono decidere di visitarti. Di notte*, ognuno di loro apprende quanti di quelli che ti hanno visitato sono cattivi, ma uno apprende informazioni sbagliate.",

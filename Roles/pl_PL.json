@@ -529,9 +529,9 @@
         "otherNight": 14,
         "otherNightReminder": "Uprzednio chronieni i pijani gracze tracą odp. tokeny. Karczmarz wskazuje na dwóch graczy. Ci gracze są chronieni. Jeden jest pijany.",
         "reminders": [
-            "Pijany",
-            "Pijany",
-            "Chroniony"
+            "Chroniony",
+            "Chroniony",
+            "Pijany"
         ],
         "setup": false,
         "ability": "Każdej nocy* wybierz 2 graczy. Żaden z nich nie może umrzeć tej nocy, ale jeden z nich będzie pijany do zmierzchu.",
@@ -825,9 +825,9 @@
         "otherNight": 37,
         "otherNightReminder": "Pukka wskazuje na gracza, ten gracz zostaje zatruty. Gracz zatruty poprzedniej nocy umiera.",
         "reminders": [
-            "Ginie",
-            "Ginie",
-            "Zatruty"
+            "Zatruty",
+            "Zatruty",
+            "Ginie"
         ],
         "setup": false,
         "ability": "Każdej nocy, wybierz gracza, który zostanie zatruty. Poprzedni zatruty gracz umiera, po czym zdrowieje.",
@@ -843,9 +843,9 @@
         "otherNight": 38,
         "otherNightReminder": "Jeden gracz, którego Shabaloth wybrał poprzedniej nocy, może zostać wskrzeszony. Shabaloth wskazuje na dwóch graczy. Ci gracze umierają.",
         "reminders": [
-            "Żyje",
-            "Żyje",
-            "Ginie"
+            "Ginie",
+            "Ginie",
+            "Żyje"
         ],
         "setup": false,
         "ability": "Każdej nocy* wybierz 2 graczy, którzy umrą. Martwy gracz wybrany poprzedniej nocy może zostać zwymiotowany.",
@@ -861,10 +861,10 @@
         "otherNight": 39,
         "otherNightReminder": "Jeśli Po nie wybrał nikogo poprzedniej nocy: Po wskazuje na trzech graczy. W przeciwnym razie: Po albo kręci głową na \"nie\" lub wskazuje na gracza. Wybrani gracze umierają.",
         "reminders": [
-            "3 Ataki",
-            "3 Ataki",
-            "3 Ataki",
-            "Ginie"
+            "Ginie",
+            "Ginie",
+            "Ginie",
+            "3 Ataki"
         ],
         "setup": false,
         "ability": "Każdej nocy*, możesz wybrać gracza, który umrze. Jeśli ostatnim razem nie wybrałeś nikogo: tej nocy wybierz 3 graczy.",
@@ -1316,13 +1316,13 @@
         "otherNight": 44,
         "otherNightReminder": "Vigormortis wskazuje gracza. Gracz ten umiera. Jeśli był to sługus, to nadal może korzystać on ze swojej zdolności, a jeden z jego sąsiadujących Mieszczan zostaje na stałe zatruty.",
         "reminders": [
+            "Ginie",
+            "Ma zdolność",
+            "Ma zdolność",
             "Ma zdolność",
             "Zatruty",
             "Zatruty",
-            "Zatruty",
-            "Ginie",
-            "Ginie",
-            "Ginie"
+            "Zatruty"
         ],
         "setup": true,
         "ability": "Każdej nocy* wybierz gracza, który umiera. Sługusi, których zabijesz, nadal posiadają swoją umiejętność i zatruwają 1 sąsiadującego Mieszczanina. [-1 Outsider].",
@@ -2761,9 +2761,9 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Fałszywe informacje",
-            "Fałszywe informacje",
-            "Odwiedzający"
+            "Odwiedzający",
+            "Odwiedzający",
+            "Fałszywe informacje"
         ],
         "setup": false,
         "ability": "Każdego dnia, 3 graczy może wybrać się do Ciebie w odwiedziny. W nocy*, każdy odwiedzający dowiaduje się, ilu odwiedzających jest złych, ale jeden dostaje fałszywe informacje.",

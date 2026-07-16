@@ -2918,9 +2918,9 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Fausses informations",
-            "Fausses informations",
-            "Visiteur"
+            "Visiteur",
+            "Visiteur",
+            "Fausses informations"
         ],
         "setup": false,
         "ability": "Chaque jour, 3 joueurs peuvent choisir de vous rendre visite. La nuit*, chaque visiteur apprend combien de visiteurs sont maléfiques, mais 1 reçoit de fausses informations.",

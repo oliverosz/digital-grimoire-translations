@@ -843,9 +843,9 @@
         "otherNight": 38,
         "otherNightReminder": "Einer der Spieler, die der Shabaloth in der vorherigen Nacht gewählt, hat kann wiederauferstehen. Der Shabaloth zeigt auf zwei Spieler. Diese Spieler sterben.",
         "reminders": [
-            "Keine Fähigkeit",
             "Tot",
-            "Tot"
+            "Tot",
+            "Lebendig"
         ],
         "setup": false,
         "ability": "Wähle jede Nacht* 2 Spieler: Sie sterben. 1 toter Spieler, den du in der vergangenen Nacht ausgewählt hast, könnte hochgewürgt werden.",
