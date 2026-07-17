@@ -1546,9 +1546,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Покажіть будь-якого гравця. :нагадування:",
+        "firstNightReminder": "Покажіть будь-якого гравця. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Покажіть гравця з іншим типом персонажа, ніж раніше. :нагадування:",
+        "otherNightReminder": "Покажіть гравця з іншим типом персонажа, ніж раніше. :reminder:",
         "reminders": [
             "Знає"
         ],
@@ -1802,7 +1802,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "Акробат обирає гравця. :нагадування:",
+        "otherNightReminder": "Акробат обирає гравця. :reminder:",
         "reminders": [
             "Мертвий",
             "Обрано"

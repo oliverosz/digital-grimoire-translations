@@ -1543,7 +1543,7 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Näytä kuka tahansa pelaaja. :muistutus:",
+        "firstNightReminder": "Näytä kuka tahansa pelaaja. :reminder:",
         "otherNight": 78,
         "otherNightReminder": "Osoita pelaajaa, joka on eri hahmoluokkaa kuin edellinen osoitus. :reminder:",
         "reminders": [

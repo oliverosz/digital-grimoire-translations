@@ -1546,9 +1546,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Visa valfri spelare. :påminnelse:",
+        "firstNightReminder": "Visa valfri spelare. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Visa en spelare med en annan karaktärstyp än tidigare. :påminnelse:",
+        "otherNightReminder": "Visa en spelare med en annan karaktärstyp än tidigare. :reminder:",
         "reminders": [
             "Visad"
         ],
@@ -1802,7 +1802,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "Akrobaten väljer en spelare. :påminnelse:",
+        "otherNightReminder": "Akrobaten väljer en spelare. :reminder:",
         "reminders": [
             "Död",
             "Vald"
@@ -2230,9 +2230,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "Harpian väljer två spelare. :påminnelse: :påminnelse: Låt Harpian somna. Väck det första målet. Visa *DENNA KARAKTÄR VALDE DIG*-brickan, Harpy-brickan och peka sedan på det andra målet.",
+        "firstNightReminder": "Harpian väljer två spelare. :reminder: :reminder: Låt Harpian somna. Väck det första målet. Visa *DENNA KARAKTÄR VALDE DIG*-brickan, Harpy-brickan och peka sedan på det andra målet.",
         "otherNight": 26,
-        "otherNightReminder": "Harpian väljer två spelare. :påminnelse: :påminnelse: Låt Harpian somna. Väck det första målet. Visa *DENNA KARAKTÄR VALDE DIG*-brickan, Harpy-brickan och peka sedan på det andra målet.",
+        "otherNightReminder": "Harpian väljer två spelare. :reminder: :reminder: Låt Harpian somna. Väck det första målet. Visa *DENNA KARAKTÄR VALDE DIG*-brickan, Harpy-brickan och peka sedan på det andra målet.",
         "reminders": [
             "Rabiat",
             "Utpekad"

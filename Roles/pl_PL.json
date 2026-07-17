@@ -1546,9 +1546,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Pokaż dowolnego gracza. :przypomnienie:",
+        "firstNightReminder": "Pokaż dowolnego gracza. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Pokaż gracza z innym typem postaci niż poprzednio. :przypomnienie:",
+        "otherNightReminder": "Pokaż gracza z innym typem postaci niż poprzednio. :reminder:",
         "reminders": [
             "Widział"
         ],
@@ -1802,7 +1802,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "Akrobata wybiera gracza. :przypomnienie:",
+        "otherNightReminder": "Akrobata wybiera gracza. :reminder:",
         "reminders": [
             "Ginie",
             "Wybrany"
@@ -2230,9 +2230,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "Harpia wybiera dwóch graczy. :przypomnienie: :przypomnienie: Uśpij Harpię. Obudź pierwszy cel. Pokaż żeton *TA POSTAĆ WYBRAŁA CIEBIE*, żeton Harpii, a następnie wskaż drugi cel.",
+        "firstNightReminder": "Harpia wybiera dwóch graczy. :reminder: :reminder: Uśpij Harpię. Obudź pierwszy cel. Pokaż żeton *TA POSTAĆ WYBRAŁA CIEBIE*, żeton Harpii, a następnie wskaż drugi cel.",
         "otherNight": 26,
-        "otherNightReminder": "Harpia wybiera dwóch graczy. :przypomnienie: :przypomnienie: Uśpij Harpię. Obudź pierwszy cel. Pokaż żeton *TA POSTAĆ WYBRAŁA CIEBIE*, żeton Harpii, a następnie wskaż drugi cel.",
+        "otherNightReminder": "Harpia wybiera dwóch graczy. :reminder: :reminder: Uśpij Harpię. Obudź pierwszy cel. Pokaż żeton *TA POSTAĆ WYBRAŁA CIEBIE*, żeton Harpii, a następnie wskaż drugi cel.",
         "reminders": [
             "Szaleje",
             "Drugi"

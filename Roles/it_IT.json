@@ -1543,9 +1543,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Mostra qualsiasi giocatore. :promemoria:",
+        "firstNightReminder": "Mostra qualsiasi giocatore. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Mostra un giocatore con un tipo di personaggio diverso da quello precedente. :promemoria:",
+        "otherNightReminder": "Mostra un giocatore con un tipo di personaggio diverso da quello precedente. :reminder:",
         "reminders": [
             "Visto"
         ],
@@ -1799,7 +1799,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "L'Acrobata sceglie un giocatore. :promemoria:",
+        "otherNightReminder": "L'Acrobata sceglie un giocatore. :reminder:",
         "reminders": [
             "Morto",
             "Scelto"
@@ -2224,9 +2224,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "L'Arpia sceglie due giocatori. :promemoria: :promemoria: Metti a dormire l'Arpia. Sveglia il 1° bersaglio. Mostra il gettone *QUESTO PERSONAGGIO TI HA SELEZIONATO*, il gettone Arpia, quindi indica il 2° bersaglio.",
+        "firstNightReminder": "L'Arpia sceglie due giocatori. :reminder: :reminder: Metti a dormire l'Arpia. Sveglia il 1° bersaglio. Mostra il gettone *QUESTO PERSONAGGIO TI HA SELEZIONATO*, il gettone Arpia, quindi indica il 2° bersaglio.",
         "otherNight": 26,
-        "otherNightReminder": "L'Arpia sceglie due giocatori. :promemoria: :promemoria: Metti a dormire l'Arpia. Sveglia il 1° bersaglio. Mostra il gettone *QUESTO PERSONAGGIO TI HA SELEZIONATO*, il gettone Arpia, quindi indica il 2° bersaglio.",
+        "otherNightReminder": "L'Arpia sceglie due giocatori. :reminder: :reminder: Metti a dormire l'Arpia. Sveglia il 1° bersaglio. Mostra il gettone *QUESTO PERSONAGGIO TI HA SELEZIONATO*, il gettone Arpia, quindi indica il 2° bersaglio.",
         "reminders": [
             "Folle",
             "Secondo"

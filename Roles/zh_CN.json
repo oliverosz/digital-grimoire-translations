@@ -1546,9 +1546,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "显示任何玩家。 :提醒:",
+        "firstNightReminder": "显示任何玩家。 :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "显示一个与之前角色类型不同的玩家。 :提醒:",
+        "otherNightReminder": "显示一个与之前角色类型不同的玩家。 :reminder:",
         "reminders": [
             "了解"
         ],
@@ -1802,7 +1802,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "杂技演员选择一名玩家。 :提醒:",
+        "otherNightReminder": "杂技演员选择一名玩家。 :reminder:",
         "reminders": [
             "死亡",
             "被选择"
@@ -2230,9 +2230,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "鹰身女妖选择两名玩家。 :提醒: :提醒:",
+        "firstNightReminder": "鹰身女妖选择两名玩家。 :reminder: :reminder:",
         "otherNight": 26,
-        "otherNightReminder": "鹰身女妖选择两名玩家。 :提醒: :提醒:",
+        "otherNightReminder": "鹰身女妖选择两名玩家。 :reminder: :reminder:",
         "reminders": [
             "被选中",
             "被选中"

@@ -1546,9 +1546,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "顯示任何玩家。 :提醒:",
+        "firstNightReminder": "顯示任何玩家。 :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "顯示一個與之前角色類型不同的玩家。 :提醒:",
+        "otherNightReminder": "顯示一個與之前角色類型不同的玩家。 :reminder:",
         "reminders": [
             "已學習"
         ],
@@ -1802,7 +1802,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "雜技演員選擇一名玩家。 :提醒:",
+        "otherNightReminder": "雜技演員選擇一名玩家。 :reminder:",
         "reminders": [
             "死亡",
             "被选择"
@@ -2230,9 +2230,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "鷹身女妖選擇兩名玩家。 :提醒: :提醒: 讓鷹身女妖睡覺。喚醒第一個目標。顯示*此角色選擇了您*令牌，鷹身女妖令牌，然後指向第二個目標。",
+        "firstNightReminder": "鷹身女妖選擇兩名玩家。 :reminder: :reminder: 讓鷹身女妖睡覺。喚醒第一個目標。顯示*此角色選擇了您*令牌，鷹身女妖令牌，然後指向第二個目標。",
         "otherNight": 26,
-        "otherNightReminder": "鷹身女妖選擇兩名玩家。 :提醒: :提醒: 讓鷹身女妖睡覺。喚醒第一個目標。顯示*此角色選擇了您*令牌，鷹身女妖令牌，然後指向第二個目標。",
+        "otherNightReminder": "鷹身女妖選擇兩名玩家。 :reminder: :reminder: 讓鷹身女妖睡覺。喚醒第一個目標。顯示*此角色選擇了您*令牌，鷹身女妖令牌，然後指向第二個目標。",
         "reminders": [
             "瘋狂",
             "目標"

@@ -1543,9 +1543,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Vis ein kva som helst spelar. :påminning:",
+        "firstNightReminder": "Vis ein kva som helst spelar. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Vis ein spelar med ein annan karaktertype enn tidlegare. :påminning:",
+        "otherNightReminder": "Vis ein spelar med ein annan karaktertype enn tidlegare. :reminder:",
         "reminders": [
             "Sett"
         ],
@@ -1799,7 +1799,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "Akrobaten vel ein spelar. :påminning:",
+        "otherNightReminder": "Akrobaten vel ein spelar. :reminder:",
         "reminders": [
             "Daud",
             "Valgt"
@@ -2224,9 +2224,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "Harpien vel to spelarar. :påminning: :påminning: Legg Harpien til å sove. Vekk det 1. målet. Vis *DENNE KARAKTEREN VALDE DEG*-brikka, Harpy-brikka, og peik deretter på det 2. målet.",
+        "firstNightReminder": "Harpien vel to spelarar. :reminder: :reminder: Legg Harpien til å sove. Vekk det 1. målet. Vis *DENNE KARAKTEREN VALDE DEG*-brikka, Harpy-brikka, og peik deretter på det 2. målet.",
         "otherNight": 26,
-        "otherNightReminder": "Harpien vel to spelarar. :påminning: :påminning: Legg Harpien til å sove. Vekk det 1. målet. Vis *DENNE KARAKTEREN VALDE DEG*-brikka, Harpy-brikka, og peik deretter på det 2. målet.",
+        "otherNightReminder": "Harpien vel to spelarar. :reminder: :reminder: Legg Harpien til å sove. Vekk det 1. målet. Vis *DENNE KARAKTEREN VALDE DEG*-brikka, Harpy-brikka, og peik deretter på det 2. målet.",
         "reminders": [
             "Manisk",
             "Nr.2"

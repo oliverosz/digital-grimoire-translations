@@ -1543,9 +1543,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Tunjukkan pemain mana pun. :pengingat:",
+        "firstNightReminder": "Tunjukkan pemain mana pun. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Tunjukkan pemain dengan tipe karakter yang berbeda dari sebelumnya. :pengingat:",
+        "otherNightReminder": "Tunjukkan pemain dengan tipe karakter yang berbeda dari sebelumnya. :reminder:",
         "reminders": [
             "Know"
         ],
@@ -1799,7 +1799,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "Acrobat memilih seorang pemain. :pengingat:",
+        "otherNightReminder": "Acrobat memilih seorang pemain. :reminder:",
         "reminders": [
             "Dead",
             "Terpilih"
@@ -2224,9 +2224,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "Harpy memilih dua pemain. :pengingat: :pengingat: Tidurkan Harpy. Bangunkan target pertama. Tunjukkan token *KARAKTER INI MEMILIHMU*, token Harpy, lalu tunjuk ke target ke-2.",
+        "firstNightReminder": "Harpy memilih dua pemain. :reminder: :reminder: Tidurkan Harpy. Bangunkan target pertama. Tunjukkan token *KARAKTER INI MEMILIHMU*, token Harpy, lalu tunjuk ke target ke-2.",
         "otherNight": 26,
-        "otherNightReminder": "Harpy memilih dua pemain. :pengingat: :pengingat: Tidurkan Harpy. Bangunkan target pertama. Tunjukkan token *KARAKTER INI MEMILIHMU*, token Harpy, lalu tunjuk ke target ke-2.",
+        "otherNightReminder": "Harpy memilih dua pemain. :reminder: :reminder: Tidurkan Harpy. Bangunkan target pertama. Tunjukkan token *KARAKTER INI MEMILIHMU*, token Harpy, lalu tunjuk ke target ke-2.",
         "reminders": [
             "Mad",
             "2nd"

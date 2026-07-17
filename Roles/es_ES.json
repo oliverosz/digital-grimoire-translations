@@ -1561,9 +1561,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Muestra a cualquier jugador. :recordatorio:",
+        "firstNightReminder": "Muestra a cualquier jugador. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Muestra a un jugador con un tipo de personaje diferente al anterior. :recordatorio:",
+        "otherNightReminder": "Muestra a un jugador con un tipo de personaje diferente al anterior. :reminder:",
         "reminders": [
             "Divisado"
         ],
@@ -1817,7 +1817,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "El Acróbata elige un jugador. :recordatorio:",
+        "otherNightReminder": "El Acróbata elige un jugador. :reminder:",
         "reminders": [
             "Muerto",
             "Elegido"
@@ -2280,9 +2280,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "La Arpía elige dos jugadores. :recordatorio: :recordatorio: Duerme a la Arpía. Despierta al 1er objetivo. Muestra la ficha *ESTE PERSONAJE TE SELECCIONÓ*, la ficha de Arpía, luego apunta al 2do objetivo.",
+        "firstNightReminder": "La Arpía elige dos jugadores. :reminder: :reminder: Duerme a la Arpía. Despierta al 1er objetivo. Muestra la ficha *ESTE PERSONAJE TE SELECCIONÓ*, la ficha de Arpía, luego apunta al 2do objetivo.",
         "otherNight": 26,
-        "otherNightReminder": "La Arpía elige dos jugadores. :recordatorio: :recordatorio: Duerme a la Arpía. Despierta al 1er objetivo. Muestra la ficha *ESTE PERSONAJE TE SELECCIONÓ*, la ficha de Arpía, luego apunta al 2do objetivo.",
+        "otherNightReminder": "La Arpía elige dos jugadores. :reminder: :reminder: Duerme a la Arpía. Despierta al 1er objetivo. Muestra la ficha *ESTE PERSONAJE TE SELECCIONÓ*, la ficha de Arpía, luego apunta al 2do objetivo.",
         "reminders": [
             "loco",
             "2nd"

@@ -1546,9 +1546,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Mostre qualquer jogador. :lembrete:",
+        "firstNightReminder": "Mostre qualquer jogador. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Mostre um jogador com um tipo de personagem diferente do anterior. :lembrete:",
+        "otherNightReminder": "Mostre um jogador com um tipo de personagem diferente do anterior. :reminder:",
         "reminders": [
             "Visto"
         ],
@@ -1802,7 +1802,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "O Acrobata escolhe um jogador. :lembrete:",
+        "otherNightReminder": "O Acrobata escolhe um jogador. :reminder:",
         "reminders": [
             "Morto",
             "Escolhido"
@@ -2230,9 +2230,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "A Harpia escolhe dois jogadores. :lembrete: :lembrete: Coloque a Harpia para dormir. Acorde o 1º alvo. Mostre o token *ESTE PERSONAGEM SELECIONOU VOCÊ*, o token da Harpia e, em seguida, aponte para o 2º alvo.",
+        "firstNightReminder": "A Harpia escolhe dois jogadores. :reminder: :reminder: Coloque a Harpia para dormir. Acorde o 1º alvo. Mostre o token *ESTE PERSONAGEM SELECIONOU VOCÊ*, o token da Harpia e, em seguida, aponte para o 2º alvo.",
         "otherNight": 26,
-        "otherNightReminder": "A Harpia escolhe dois jogadores. :lembrete: :lembrete: Coloque a Harpia para dormir. Acorde o 1º alvo. Mostre o token *ESTE PERSONAGEM SELECIONOU VOCÊ*, o token da Harpia e, em seguida, aponte para o 2º alvo.",
+        "otherNightReminder": "A Harpia escolhe dois jogadores. :reminder: :reminder: Coloque a Harpia para dormir. Acorde o 1º alvo. Mostre o token *ESTE PERSONAGEM SELECIONOU VOCÊ*, o token da Harpia e, em seguida, aponte para o 2º alvo.",
         "reminders": [
             "Alucinando",
             "2º"

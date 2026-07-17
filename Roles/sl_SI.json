@@ -1546,9 +1546,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Pokaži katerega koli igralca. :opomnik:",
+        "firstNightReminder": "Pokaži katerega koli igralca. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Pokaži igralca z drugačnim tipom lika kot prej. :opomnik:",
+        "otherNightReminder": "Pokaži igralca z drugačnim tipom lika kot prej. :reminder:",
         "reminders": [
             "Opažen"
         ],
@@ -1802,7 +1802,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "Akrobat izbere igralca. :opomnik:",
+        "otherNightReminder": "Akrobat izbere igralca. :reminder:",
         "reminders": [
             "Mrtev",
             "Izbran"
@@ -2230,9 +2230,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "Harpija izbere dva igralca. :opomnik: :opomnik: Uspavajte Harpijo. Zbudite 1. tarčo. Pokažite žeton *TA LIK VAS JE IZBRAL*, žeton Harpije, nato pa pokažite na 2. tarčo.",
+        "firstNightReminder": "Harpija izbere dva igralca. :reminder: :reminder: Uspavajte Harpijo. Zbudite 1. tarčo. Pokažite žeton *TA LIK VAS JE IZBRAL*, žeton Harpije, nato pa pokažite na 2. tarčo.",
         "otherNight": 26,
-        "otherNightReminder": "Harpija izbere dva igralca. :opomnik: :opomnik: Uspavajte Harpijo. Zbudite 1. tarčo. Pokažite žeton *TA LIK VAS JE IZBRAL*, žeton Harpije, nato pa pokažite na 2. tarčo.",
+        "otherNightReminder": "Harpija izbere dva igralca. :reminder: :reminder: Uspavajte Harpijo. Zbudite 1. tarčo. Pokažite žeton *TA LIK VAS JE IZBRAL*, žeton Harpije, nato pa pokažite na 2. tarčo.",
         "reminders": [
             "Nor",
             "Drugi"

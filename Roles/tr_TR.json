@@ -1546,9 +1546,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Herhangi bir oyuncuyu göster. :hatırlatma:",
+        "firstNightReminder": "Herhangi bir oyuncuyu göster. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Daha öncekinden farklı bir karakter türüne sahip bir oyuncu göster. :hatırlatma:",
+        "otherNightReminder": "Daha öncekinden farklı bir karakter türüne sahip bir oyuncu göster. :reminder:",
         "reminders": [
             "Görünen"
         ],
@@ -1802,7 +1802,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "Akrobat bir oyuncu seçer. :hatırlatma:",
+        "otherNightReminder": "Akrobat bir oyuncu seçer. :reminder:",
         "reminders": [
             "Ölü",
             "Seçilen"
@@ -2230,9 +2230,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "Harpi iki oyuncu seçer. :hatırlatma: :hatırlatma: Harpi'yi uyutun. 1. hedefi uyandırın. *BU KARAKTER SİZİ SEÇTİ* jetonunu, Harpi jetonunu gösterin, ardından 2. hedefi gösterin.",
+        "firstNightReminder": "Harpi iki oyuncu seçer. :reminder: :reminder: Harpi'yi uyutun. 1. hedefi uyandırın. *BU KARAKTER SİZİ SEÇTİ* jetonunu, Harpi jetonunu gösterin, ardından 2. hedefi gösterin.",
         "otherNight": 26,
-        "otherNightReminder": "Harpi iki oyuncu seçer. :hatırlatma: :hatırlatma: Harpi'yi uyutun. 1. hedefi uyandırın. *BU KARAKTER SİZİ SEÇTİ* jetonunu, Harpi jetonunu gösterin, ardından 2. hedefi gösterin.",
+        "otherNightReminder": "Harpi iki oyuncu seçer. :reminder: :reminder: Harpi'yi uyutun. 1. hedefi uyandırın. *BU KARAKTER SİZİ SEÇTİ* jetonunu, Harpi jetonunu gösterin, ardından 2. hedefi gösterin.",
         "reminders": [
             "Deli",
             "2."
